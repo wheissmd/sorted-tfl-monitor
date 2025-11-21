@@ -1,0 +1,33 @@
+version: 1
+
+line:
+  id: suffragette
+  name: Suffragette
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 20
+  preroll_min: 25
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 0
+  
+sections:
+  SUF-GOS-WAN:
+   points:
+    Eastbound_In:  ["Gospel Oak Rail Station", "Upper Holloway Rail Station"]
+    Eastbound_Out: ["Leytonstone High Road Rail Station", "Wanstead Park Rail Station"]
+    Westbound_In:  ["Wanstead Park Rail Station", "Leytonstone High Road Rail Station"]
+    Westbound_Out: ["Upper Holloway Rail Station", "Gospel Oak Rail Station"]
+
+  SUF-WAN-BAR:
+   points:
+    Eastbound:  ["Wanstead Park Rail Station", "Barking Rail Station"]
+    Westbound:  ["Barking Rail Station", "Wanstead Park Rail Station"]
+
+  SUF-BAR-BRR:
+   points:
+    Eastbound:  ["Barking Rail Station", "Barking Riverside Rail Station"]
+    Westbound:  ["Barking Riverside Rail Station", "Barking Rail Station"]

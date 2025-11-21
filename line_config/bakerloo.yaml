@@ -1,0 +1,52 @@
+version: 1
+
+line:
+  id: bakerloo
+  name: Bakerloo
+  mode: tube
+  line_token: bakerloo
+
+parameters:
+  step_min: 5
+  preroll_min: 20
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  BAK-HAR-STO:
+   step_min: 20
+   preroll_min: 20
+   points:
+    Southbound_In:  ["Harrow & Wealdstone Underground Station", "Kenton Underground Station"]
+    Southbound_Out: ["Wembley Central Underground Station", "Stonebridge Park Underground Station"]
+    Northbound_In:  ["Stonebridge Park Underground Station", "Wembley Central Underground Station"]
+    Northbound_Out: ["Kenton Underground Station", "Harrow & Wealdstone Underground Station"]
+
+  BAK-STO-QUE:
+   step_min: 15
+   preroll_min: 20
+   points:
+    Southbound_In:  ["Stonebridge Park Underground Station", "Harlesden Underground Station"]
+    Southbound_Out: ["Kensal Green Underground Station", "Queen's Park Underground Station"]
+    Northbound_In:  ["Queen's Park Underground Station", "Kensal Green Underground Station"]
+    Northbound_Out: ["Harlesden Underground Station", "Stonebridge Park Underground Station"]
+
+  BAK-QUE-BAK:
+   step_min: 5
+   preroll_min: 5
+   points:
+    Southbound_In:  ["Queen's Park Underground Station", "Kilburn Park Underground Station"]
+    Southbound_Out: ["Marylebone Underground Station", "Baker Street Underground Station"]
+    Northbound_In:  ["Baker Street Underground Station", "Marylebone Underground Station"]
+    Northbound_Out: ["Kilburn Park Underground Station", "Queen's Park Underground Station"]
+
+  BAK-BAK-ELE:
+   step_min: 5
+   preroll_min: 5
+   points:
+    Southbound_In:  ["Baker Street Underground Station", "Regent's Park Underground Station"]
+    Southbound_Out: ["Lambeth North Underground Station", "Elephant & Castle Underground Station"]
+    Northbound_In:  ["Elephant & Castle Underground Station", "Lambeth North Underground Station"]
+    Northbound_Out: ["Regent's Park Underground Station", "Baker Street Underground Station"]

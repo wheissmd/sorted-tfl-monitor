@@ -1,0 +1,80 @@
+version: 1
+
+line:
+  id: elizabeth
+  name: Elizabeth
+  mode: elizabeth-line
+  line_token: elizabeth
+
+parameters:
+  step_min: 5
+  preroll_min: 40
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: elizabeth-line
+  night_tube: 0
+  
+sections:
+  LIZ-REA-MAI:
+   points:
+    Eastbound:   ["Reading Rail Station", "Maidenhead Rail Station"]
+    Westbound:   ["Maidenhead Rail Station", "Reading Rail Station"]
+
+  LIZ-MAI-EAL:
+   points:
+    Eastbound_In:   ["Maidenhead Rail Station", "Burnham Rail Station"]
+    Eastbound_Out:  ["West Drayton Rail Station", "Ealing Broadway Rail Station"]
+    Westbound_In:   ["Ealing Broadway Rail Station", "West Drayton Rail Station"]
+    Westbound_Out:  ["Burnham Rail Station", "Maidenhead Rail Station"]
+
+  LIZ-HT5-HT2:
+   points:
+    Eastbound:   ["Heathrow Terminal 5 Rail Station", "Heathrow Terminals 2 & 3 Rail Station"]
+    Westbound:   ["Heathrow Terminals 2 & 3 Rail Station", "Heathrow Terminal 5 Rail Station"]
+
+  LIZ-HT4-HT2:
+   points:
+    Eastbound:   ["Heathrow Terminal 4 Rail Station", "Heathrow Terminals 2 & 3 Rail Station"]
+    Westbound:   ["Heathrow Terminals 2 & 3 Rail Station", "Heathrow Terminal 4 Rail Station"]
+
+  LIZ-HT2-EAL:
+   points:
+    Eastbound_In:   ["Heathrow Terminals 2 & 3 Rail Station", "Hayes & Harlington Rail Station"]
+    Eastbound_Out:  ["West Ealing Rail Station", "Ealing Broadway Rail Station"]
+    Westbound_In:   ["Ealing Broadway Rail Station", "West Ealing Rail Station"]
+    Westbound_Out:  ["Hayes & Harlington Rail Station", "Heathrow Terminals 2 & 3 Rail Station"]
+
+  LIZ-EAL-PAD:
+   points:
+    Eastbound:   ["Ealing Broadway Rail Station", "Paddington Rail Station"]
+    Westbound:   ["Paddington Rail Station", "Ealing Broadway Rail Station"]
+
+  LIZ-PAD-LIV:
+   points:
+    Eastbound_In:   ["Paddington Rail Station", "Bond Street Rail Station"]
+    Eastbound_Out:  ["Farringdon Rail Station", "Liverpool Street Rail Station"]
+    Westbound_In:   ["Liverpool Street Rail Station", "Farringdon Rail Station"]
+    Westbound_Out:  ["Bond Street Rail Station", "Paddington Rail Station"]
+
+  LIZ-LIV-GID:
+   points:
+    Eastbound_In:   ["Liverpool Street Rail Station", "Stratford Rail Station"]
+    Eastbound_Out:  ["Romford Rail Station", "Gidea Park Rail Station"]
+    Westbound_In:   ["Gidea Park Rail Station", "Romford Rail Station"]
+    Westbound_Out:  ["Stratford Rail Station", "Liverpool Street Rail Station"]
+
+  LIZ-GID-SHE:
+   points:
+    Eastbound_In:   ["Gidea Park Rail Station", "Harold Wood Rail Station"]
+    Eastbound_Out:  ["Brentwood Rail Station", "Shenfield Rail Station"]
+    Westbound_In:   ["Shenfield Rail Station", "Brentwood Rail Station"]
+    Westbound_Out:  ["Harold Wood Rail Station", "Gidea Park Rail Station"]
+
+  LIZ-LIV-ABB:
+   points:
+    Eastbound_In:   ["Liverpool Street Rail Station", "Canary Wharf Rail Station"]
+    Eastbound_Out:  ["Woolwich Rail Station", "Abbey Wood Rail Station"]
+    Westbound_In:   ["Abbey Wood Rail Station", "Woolwich Rail Station"]
+    Westbound_Out:  ["Canary Wharf Rail Station", "Liverpool Street Rail Station"]
+
+ 

@@ -1,0 +1,49 @@
+version: 1
+
+line:
+  id: mildmay
+  name: Mildmay
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 10
+  preroll_min: 25
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 0
+  
+sections:
+  MIL-STR-CAM:
+   points:
+    Westbound_In:   ["Stratford Rail Station", "Hackney Wick Rail Station"]
+    Westbound_Out:  ["Caledonian Road Rail Station", "Camden Road Rail Station"]
+    Eastbound_In:   ["Camden Road Rail Station", "Caledonian Road Rail Station"]
+    Eastbound_Out:  ["Hackney Wick Rail Station", "Stratford Rail Station"]
+
+  MIL-CAM-WIL:
+   points:
+    Westbound_In:   ["Camden Road Rail Station", "Kentish Town West Rail Station"]
+    Westbound_Out:  ["Kensal Rise Rail Station", "Willesden Junction Rail Station"]
+    Eastbound_In:   ["Willesden Junction Rail Station", "Kensal Rise Rail Station"]
+    Eastbound_Out:  ["Kentish Town West Rail Station", "Camden Road Rail Station"]
+
+  MIL-WIL-CLA:
+   points:
+    Southbound_In:   ["Willesden Junction Rail Station", "Shepherd's Bush Rail Station"]
+    Southbound_Out:  ["Imperial Wharf Rail Station", "Clapham Junction Rail Station"]
+    Northbound_In:   ["Clapham Junction Rail Station", "Imperial Wharf Rail Station"]
+    Northbound_Out:  ["Shepherd's Bush Rail Station", "Willesden Junction Rail Station"]
+
+  MIL-WIL-SOA:
+   points:
+    Southbound:  ["Willesden Junction Rail Station", "South Acton Rail Station"]
+    Northbound:  ["South Acton Rail Station", "Willesden Junction Rail Station"]
+
+  MIL-SOA-RIC:
+   points:
+    Southbound_In:   ["South Acton Rail Station", "Gunnersbury Rail Station"]
+    Southbound_Out:  ["Kew Gardens Rail Station", "Richmond Rail Station"]
+    Northbound_In:   ["Richmond Rail Station", "Kew Gardens Rail Station"]
+    Northbound_Out:  ["Gunnersbury Rail Station", "South Acton Rail Station"]

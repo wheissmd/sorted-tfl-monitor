@@ -1,0 +1,51 @@
+api_line_id: suffragette
+created: '2025-11-06T21:38:43.615190+00:00'
+mode: overground
+name_to_ids:
+  Barking Rail Station:
+  - 940GZZLUBKG
+  - 910GBARKING
+  Barking Riverside Rail Station:
+  - 4900BKRVS2
+  - 910GBKRVS
+  - 4900BKRVS1
+  - 9100BKRVS1
+  - 9100BKRVS2
+  Crouch Hill Rail Station:
+  - 4900CROUCHH1
+  - 9100CROUCHH
+  - 9100CROUCHH0
+  - 910GCROUCHH
+  - 9100CROUCHH1
+  Gospel Oak Rail Station:
+  - 9100GOSPLOK3
+  - 910GGOSPLOK
+  - 9100GOSPLOK1
+  - 9100GOSPLOK2
+  - 4900GOSPLOK1
+  - 9100GOSPLOK
+  Leytonstone High Road Rail Station:
+  - 910GLYTNSHR
+  - 9100LYTNSHR
+  - 9100LYTNSHR1
+  - 4900LYTNSHR1
+  - 9100LYTNSHR0
+  Upper Holloway Rail Station:
+  - 4900UPRHLWY2
+  - 9100UPRHLWY0
+  - 9100UPRHLWY
+  - 910GUPRHLWY
+  - 4900UPRHLWY1
+  - 9100UPRHLWY1
+  Wanstead Park Rail Station:
+  - 4900WNSTDPK1
+  - 910GWNSTDPK
+  - 9100WNSTDPK
+  - 9100WNSTDPK0
+  - 9100WNSTDPK1
+  Woodgrange Park Rail Station:
+  - 9100WDGRNPK0
+  - 910GWDGRNPK
+  - 9100WDGRNPK
+  - 9100WDGRNPK1
+  - 4900WDGRNPK1

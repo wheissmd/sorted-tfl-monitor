@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Bakerloo" mode="tube" tz="Europe/London" window="17:00-18:00">
+   <Section>
+      BAK-HAR-STO
+      <Point>
+         Southbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>5</TPH>
+         <Headways>16 13 8 12 11</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>5</TPH>
+         <Headways>15 17 13 7 12</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>6</TPH>
+         <Headways>9 13 9 9 13 5</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>6</TPH>
+         <Headways>18 9 13 8 9 13</Headways>
+      </Point>
+   </Section>
+   <Section>
+      BAK-STO-QUE
+      <Point>
+         Southbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>9</TPH>
+         <Headways>8 8 8 5 8 5 4 11 3</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>9</TPH>
+         <Headways>5 3 8 8 8 5 8 5 4</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>9</TPH>
+         <Headways>3 7 5 6 9 4 9 6 9</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>9</TPH>
+         <Headways>9 3 9 3 6 9 5 8 6</Headways>
+      </Point>
+   </Section>
+   <Section>
+      BAK-QUE-BAK
+      <Point>
+         Southbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+   </Section>
+   <Section>
+      BAK-BAK-ELE
+      <Point>
+         Southbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>17:00-18:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

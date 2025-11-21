@@ -1,0 +1,80 @@
+version: 1
+
+line:
+  id: metropolitan
+  name: Metropolitan
+  mode: tube
+  line_token: metropolitan
+  night_tube: 0
+
+parameters:
+  step_min: 5
+  preroll_min: 15
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  MET-CHE-CHA:
+   step_min: 30
+   preroll_min: 60
+   points:
+    Eastbound:  ["Chesham Underground Station", "Chalfont & Latimer Underground Station"]
+    Westbound:  ["Chalfont & Latimer Underground Station", "Chesham Underground Station"]
+  
+  MET-AME-CHA:
+   step_min: 30
+   preroll_min: 60
+   points:
+    Eastbound:  ["Amersham Underground Station", "Chalfont & Latimer Underground Station"]
+    Westbound:  ["Chalfont & Latimer Underground Station", "Amersham Underground Station"]
+
+  MET-CHA-MOO:
+   step_min: 20
+   preroll_min: 20
+   points:
+    Eastbound_In:  ["Chalfont & Latimer Underground Station", "Chorleywood Underground Station"]
+    Eastbound_Out: ["Rickmansworth Underground Station", "Moor Park Underground Station"]
+    Westbound_In:  ["Moor Park Underground Station", "Rickmansworth Underground Station"]
+    Westbound_Out: ["Chorleywood Underground Station", "Chalfont & Latimer Underground Station"]
+
+  MET-WAT-MOO:
+   points:
+    Westbound:  ["Watford Underground Station", "Moor Park Underground Station"]
+    Eastbound:  ["Moor Park Underground Station", "Watford Underground Station"]
+
+  MET-MOO-HAR:
+   points:
+    Eastbound:  ["Moor Park Underground Station", "Harrow-on-the-Hill Underground Station"]
+    Westbound:  ["Harrow-on-the-Hill Underground Station", "Moor Park Underground Station"]
+  
+  MET-UXB-RAY:
+   points:
+    Eastbound_In:  ["Uxbridge Underground Station", "Hillingdon Underground Station"]
+    Eastbound_Out: ["Eastcote Underground Station", "Rayners Lane Underground Station"]
+    Westbound_In:  ["Rayners Lane Underground Station", "Eastcote Underground Station"]
+    Westbound_Out: ["Hillingdon Underground Station", "Uxbridge Underground Station"]
+
+  MET-RAY-HAR:
+   points:
+    Eastbound:  ["Rayners Lane Underground Station", "Harrow-on-the-Hill Underground Station"]
+    Westbound:  ["Harrow-on-the-Hill Underground Station", "Rayners Lane Underground Station"]
+
+  MET-HAR-BAK:
+   step_min: 2
+   preroll_min: 10
+   points:
+    Eastbound:  ["Harrow-on-the-Hill Underground Station", "Baker Street Underground Station"]
+    Westbound:  ["Baker Street Underground Station", "Harrow-on-the-Hill Underground Station"]
+
+  MET-BAK-ALD:
+   step_min: 2
+   preroll_min: 10
+   points:
+    Eastbound_In:  ["Baker Street Underground Station", "Great Portland Street Underground Station"]
+    Eastbound_Out: ["Liverpool Street Underground Station", "Aldgate Underground Station"]
+    Westbound_In:  ["Aldgate Underground Station", "Liverpool Street Underground Station"]
+    Westbound_Out: ["Great Portland Street Underground Station", "Baker Street Underground Station"]
+  
+

@@ -1,0 +1,59 @@
+version: 1
+
+line:
+  id: circle
+  name: Circle
+  mode: tube
+  line_token: circle
+
+parameters:
+  step_min: 4
+  preroll_min: 15
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  CIR-HAM-PAD:
+   points:
+    Eastbound_In:  ["Goldhawk Road Underground Station", "Shepherd's Bush Market Underground Station"]
+    Eastbound_Out: ["Royal Oak Underground Station", "Paddington Underground Station"]
+    Westbound_In:  ["Paddington Underground Station", "Royal Oak Underground Station"]
+    Westbound_Out: ["Shepherd's Bush Market Underground Station", "Goldhawk Road Underground Station"]
+
+  CIR-PAD-EDG:
+   points:
+    Eastbound: ["Paddington (H&C Line) Underground Station", "Great Portland Street Underground Station"]
+    Westbound: ["Edgware Road Underground Station", "Royal Oak Underground Station"]
+
+  CIR-EDG-BAK:
+   points:
+    Eastbound: ["Edgware Road Underground Station", "Great Portland Street Underground Station"]
+    Westbound: ["Baker Street Underground Station", "Royal Oak Underground Station"]
+
+  CIR-BAK-LIV:
+   points:
+    Eastbound_In:  ["Baker Street Underground Station", "Great Portland Street Underground Station"]
+    Eastbound_Out: ["Liverpool Street Underground Station", "Tower Hill Underground Station"]
+    Westbound_In:  ["Liverpool Street Underground Station", "Barbican Underground Station"]
+    Westbound_Out: ["Great Portland Street Underground Station", "Baker Street Underground Station"]
+
+  CIR-LIV-TOW:
+   points:
+    Southbound:  ["Liverpool Street Underground Station", "Tower Hill Underground Station"]
+    Northbound:  ["Aldgate Underground Station", "Liverpool Street Underground Station"]
+
+  CIR-TOW-HSK:
+   points:
+    Westbound_In:  ["Tower Hill Underground Station", "Monument Underground Station"]
+    Westbound_Out: ["Gloucester Road Underground Station", "High Street Kensington Underground Station"]
+    Eastbound_In:  ["High Street Kensington Underground Station", "Gloucester Road Underground Station"]
+    Eastbound_Out: ["Monument Underground Station", "Tower Hill Underground Station"]
+
+  CIR-HSK-EDG:
+   points:
+    Northbound_In:  ["High Street Kensington Underground Station", "Notting Hill Gate Underground Station"]
+    Northbound_Out: ["Bayswater Underground Station", "Edgware Road Underground Station"]
+    Southbound_In:  ["Edgware Road Underground Station", "Bayswater Underground Station"]
+    Southbound_Out: ["Notting Hill Gate Underground Station", "High Street Kensington Underground Station"]

@@ -1,0 +1,21 @@
+api_line_id: waterloo-city
+created: '2025-11-06T21:24:30.176996+00:00'
+mode: tube
+name_to_ids:
+  Bank Underground Station:
+  - 490G000713
+  - 940GZZLUBNK
+  - 490G000556
+  - 490G00007599
+  - 940GZZDLBNK
+  - 490G000559
+  - 490G000557
+  Waterloo Underground Station:
+  - 490G000404
+  - 490G000736
+  - 490G000401
+  - 940GZZLUWLO
+  - 490G000402
+  - 490G000405
+  - 490G000275
+  - 910GWATRLMN

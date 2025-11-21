@@ -1,0 +1,33 @@
+line:
+  id: victoria
+  name: Victoria
+  mode: tube
+  line_token: victoria
+
+min_run_ab_default_min:
+  "Brixton Underground Station": 2
+  "Walthamstow Central Underground Station": 2
+  "Seven Sisters Underground Station": 3
+
+launch_dir_default:
+  "Brixton Underground Station": "Down"
+  "Walthamstow Central Underground Station": "Up"
+  "Seven Sisters Underground Station": "Up"
+
+stations:
+  "Walthamstow Central": 1
+  "Blackhorse Road": 2
+  "Tottenham Hale": 3
+  "Seven Sisters": 4
+  "Finsbury Park": 5
+  "Highbury & Islington": 6
+  "King's Cross St. Pancras": 7
+  "Euston": 8
+  "Warren Street": 9
+  "Oxford Circus": 10
+  "Green Park": 11
+  "Victoria": 12
+  "Pimlico": 13
+  "Vauxhall": 14
+  "Stockwell": 15
+  "Brixton": 16

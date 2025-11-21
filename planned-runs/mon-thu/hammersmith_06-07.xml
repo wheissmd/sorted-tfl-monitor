@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Hammersmith &amp; City" mode="tube" tz="Europe/London" window="06:00-07:00">
+   <Section>
+      HAM-HAM-PAD
+      <Point>
+         Eastbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>7 12 11 9 11 10</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 8 12 10 9 12</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>7</TPH>
+         <Headways>18 6 11 9 10 10 9</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>18 6 10 9 11 10</Headways>
+      </Point>
+   </Section>
+   <Section>
+      HAM-PAD-EDG
+      <Point>
+         Eastbound
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 9 11 10 10 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>06:00-07:00</Time>
+         <TPH>7</TPH>
+         <Headways>6 10 9 11 10 9</Headways>
+      </Point>
+   </Section>
+   <Section>
+      HAM-EDG-BAK
+      <Point>
+         Eastbound
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 10 10 10 10 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>6 11 9 10 10 9</Headways>
+      </Point>
+   </Section>
+   <Section>
+      HAM-BAK-LIV
+      <Point>
+         Eastbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 10 10 10 10 10</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>5</TPH>
+         <Headways>17 12 11 10 10</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>7</TPH>
+         <Headways>10 9 11 9 9 10 9</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>6 11 9 10 9 9</Headways>
+      </Point>
+   </Section>
+   <Section>
+      HAM-LIV-BAR
+      <Point>
+         Eastbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>5</TPH>
+         <Headways>17 12 11 10 10</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>4</TPH>
+         <Headways>20 15 12 11</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>06:00-07:00</Time>
+         <TPH>7</TPH>
+         <Headways>9 10 12 8 9 9 8</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>06:00-07:00</Time>
+         <TPH>6</TPH>
+         <Headways>7 10 9 10 11 8</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

@@ -1,0 +1,47 @@
+version: 1
+
+line:
+  id: hammersmith-city
+  name: Hammersmith & City
+  mode: tube
+  line_token: hammersmith-city
+
+parameters:
+  step_min: 4
+  preroll_min: 15
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  HAM-HAM-PAD:
+   points:
+    Eastbound_In:  ["Goldhawk Road Underground Station", "Shepherd's Bush Market Underground Station"]
+    Eastbound_Out: ["Royal Oak Underground Station", "Paddington Underground Station"]
+    Westbound_In:  ["Paddington Underground Station", "Royal Oak Underground Station"]
+    Westbound_Out: ["Shepherd's Bush Market Underground Station", "Goldhawk Road Underground Station"]
+
+  HAM-PAD-EDG:
+   points:
+    Eastbound: ["Paddington (H&C Line) Underground Station", "Great Portland Street Underground Station"]
+    Westbound: ["Edgware Road Underground Station", "Royal Oak Underground Station"]
+
+  HAM-EDG-BAK:
+   points:
+    Eastbound: ["Edgware Road Underground Station", "Great Portland Street Underground Station"]
+    Westbound: ["Baker Street Underground Station", "Royal Oak Underground Station"]
+
+  HAM-BAK-LIV:
+   points:
+    Eastbound_In:  ["Baker Street Underground Station", "Great Portland Street Underground Station"]
+    Eastbound_Out: ["Moorgate Underground Station", "Aldgate East Underground Station"]
+    Westbound_In:  ["Liverpool Street Underground Station", "Barbican Underground Station"]
+    Westbound_Out: ["Great Portland Street Underground Station", "Baker Street Underground Station"]
+
+  HAM-LIV-BAR:
+   points:
+    Eastbound_In:  ["Liverpool Street Underground Station", "Aldgate East Underground Station"]
+    Eastbound_Out: ["East Ham Underground Station", "Barking Underground Station"]
+    Westbound_In:  ["Barking Underground Station", "East Ham Underground Station"]
+    Westbound_Out: ["Aldgate East Underground Station", "Liverpool Street Underground Station"]

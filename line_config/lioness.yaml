@@ -1,0 +1,44 @@
+version: 1
+
+line:
+  id: lioness
+  name: Lioness
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 20
+  preroll_min: 25
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 0
+  
+sections:
+  LIO-WAT-HAR:
+   points:
+    Southbound_In:   ["Watford Junction Rail Station", "Watford High Street Rail Station"]
+    Southbound_Out:  ["Headstone Lane Rail Station", "Harrow & Wealdstone Rail Station"]
+    Northbound_In:   ["Harrow & Wealdstone Rail Station", "Headstone Lane Rail Station"]
+    Northbound_Out:  ["Watford High Street Rail Station", "Watford Junction Rail Station"]
+
+  LIO-HAR-STO:
+   points:
+    Southbound_In:   ["Harrow & Wealdstone Rail Station", "Kenton Rail Station"]
+    Southbound_Out:  ["Wembley Central Rail Station", "Stonebridge Park Rail Station"]
+    Northbound_In:   ["Stonebridge Park Rail Station", "Wembley Central Rail Station"]
+    Northbound_Out:  ["Kenton Rail Station", "Harrow & Wealdstone Rail Station"]
+
+  LIO-STO-QUE:
+   points:
+    Southbound_In:   ["Stonebridge Park Rail Station", "Harlesden Rail Station"]
+    Southbound_Out:  ["Kensal Green Rail Station", "Queen's Park Rail Station"]
+    Northbound_In:   ["Queen's Park Rail Station", "Kensal Green Rail Station"]
+    Northbound_Out:  ["Harlesden Rail Station", "Stonebridge Park Rail Station"]
+
+  LIO-QUE-EUS:
+   points:
+    Southbound_In:   ["Queen's Park Rail Station", "Kilburn High Road Rail Station"]
+    Southbound_Out:  ["South Hampstead Rail Station", "Euston Rail Station"]
+    Northbound_In:   ["Euston Rail Station", "South Hampstead Rail Station"]
+    Northbound_Out:  ["Kilburn High Road Rail Station", "Queen's Park Rail Station"]

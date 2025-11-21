@@ -1,0 +1,47 @@
+version: 1
+
+line:
+  id: weaver
+  name: Weaver
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 10
+  preroll_min: 40
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 0
+  
+sections:
+  WEA-LIV-HAC:
+   points:
+    Northbound:   ["Liverpool Street Rail Station", "Hackney Downs Rail Station"]
+    Southbound:   ["Hackney Downs Rail Station", "Liverpool Street Rail Station"]
+
+  WEA-HAC-CHI:
+   points:
+    Northbound_In:   ["Hackney Downs Rail Station", "Clapton Rail Station"]
+    Northbound_Out:  ["Highams Park Rail Station", "Chingford Rail Station"]
+    Southbound_In:   ["Chingford Rail Station", "Highams Park Rail Station"]
+    Southbound_Out:  ["Clapton Rail Station", "Hackney Downs Rail Station"]
+
+  WEA-HAC-EDM:
+   points:
+    Northbound_In:   ["Hackney Downs Rail Station", "Rectory Road Rail Station"]
+    Northbound_Out:  ["Silver Street Rail Station", "Edmonton Green Rail Station"]
+    Southbound_In:   ["Edmonton Green Rail Station", "Silver Street Rail Station"]
+    Southbound_Out:  ["Rectory Road Rail Station", "Hackney Downs Rail Station"]
+  
+  WEA-EDM-CHE:
+   points:
+    Northbound_In:   ["Edmonton Green Rail Station", "Southbury Rail Station"]
+    Northbound_Out:  ["Theobalds Grove Rail Station", "Cheshunt Rail Station"]
+    Southbound_In:   ["Cheshunt Rail Station", "Theobalds Grove Rail Station"]
+    Southbound_Out:  ["Southbury Rail Station", "Edmonton Green Rail Station"]
+
+  WEA-EDM-ENF:
+   points:
+    Northbound:   ["Edmonton Green Rail Station", "Enfield Town Rail Station"]
+    Southbound:   ["Enfield Town Rail Station", "Edmonton Green Rail Station"]

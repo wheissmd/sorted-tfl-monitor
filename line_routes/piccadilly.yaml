@@ -1,0 +1,84 @@
+line:
+  id: piccadilly
+  name: Piccadilly
+  mode: tube
+  line_token: piccadilly
+
+min_run_ab_default_min:
+  "Uxbridge Underground Station": 2
+  "Rayners Lane Underground Station": 3
+  "North Ealing Underground Station": 2
+  "Northfields Underground Station": 4
+  "Heathrow Terminal 5 Underground Station": 4
+  "Heathrow Terminal 4 Underground Station": 5
+  "Arnos Grove Underground Station": 3
+  "Cockfosters Underground Station": 2
+
+launch_dir_default:
+  "Uxbridge Underground Station": "Up"
+  "Rayners Lane Underground Station": "Up"
+  "North Ealing Underground Station": "Up"
+  "Northfields Underground Station": "Up"
+  "Heathrow Terminal 5 Underground Station": "Up"
+  "Heathrow Terminal 4 Underground Station": "Up"
+  "Arnos Grove Underground Station": "Down"
+  "Cockfosters Underground Station": "Down"
+
+stations_branch1:
+  "Uxbridge": 1
+  "Hillingdon": 2
+  "Ickenham": 3
+  "Ruislip": 4
+  "Ruislip Manor": 5
+  "Eastcote": 6
+  "Rayners Lane": 7
+  "South Harrow": 8
+  "Sudbury Hill": 9
+  "Sudbury Town": 10
+  "Alperton": 11
+  "Park Royal": 12
+  "North Ealing": 13
+  "Ealing Common": 14
+
+stations_branch2:
+  "Heathrow Terminal 4": 5
+  "Heathrow Terminal 5": 5
+  "Heathrow Terminals 2 & 3": 6
+  "Hatton Cross": 7
+  "Hounslow West": 8
+  "Hounslow Central": 9
+  "Hounslow East": 10
+  "Osterley": 11
+  "Boston Manor": 12
+  "Northfields": 13
+  "South Ealing": 14
+
+stations_branch3:
+  "Acton Town": 15
+  "Turnham Green": 16
+  "Hammersmith": 17
+  "Barons Court": 18
+  "Earl's Court": 19
+  "Gloucester Road": 20
+  "South Kensington": 21
+  "Knightsbridge": 22
+  "Hyde Park Corner": 23
+  "Green Park": 24
+  "Piccadilly Circus": 25
+  "Leicester Square": 26
+  "Covent Garden": 27
+  "Holborn": 28
+  "Russell Square": 29
+  "King's Cross St. Pancras": 30
+  "Caledonian Road": 31
+  "Holloway Road": 32
+  "Arsenal": 33
+  "Finsbury Park": 34
+  "Manor House": 35
+  "Turnpike Lane": 36
+  "Wood green": 37
+  "Bounds Green": 38
+  "Arnos Grove": 39
+  "Southgate": 40
+  "Oakwood": 41
+  "Cockfosters": 42

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Weaver" mode="overground" tz="Europe/London" window="13:00-14:00">
+   <Section>
+      WEA-LIV-HAC
+      <Point>
+         Northbound
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>12 3 12 3 12 3 12 3</Headways>
+      </Point>
+      <Point>
+         Southbound
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>2 13 2 13 2 13 2 13</Headways>
+      </Point>
+   </Section>
+   <Section>
+      WEA-HAC-CHI
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      WEA-HAC-EDM
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      WEA-EDM-CHE
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+   </Section>
+   <Section>
+      WEA-EDM-ENF
+      <Point>
+         Northbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Southbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

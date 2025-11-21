@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Waterloo &amp; City" mode="tube" tz="Europe/London" window="16:00-17:00">
+   <Section>
+      WAT-WAT-BAN
+      <Point>
+         Northbound
+         <Time>16:00-17:00</Time>
+         <TPH>20</TPH>
+         <Headways>5 5 4 3 3 3 3 3 3 2 3 3 3 2 3 3 3 2 3 3</Headways>
+      </Point>
+      <Point>
+         Southbound
+         <Time>16:00-17:00</Time>
+         <TPH>19</TPH>
+         <Headways>5 5 4 4 3 3 3 3 2 3 3 3 2 3 3 3 2 3 3</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

@@ -1,0 +1,59 @@
+version: 1
+
+line:
+  id: windrush
+  name: Windrush
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 5
+  preroll_min: 25
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 1
+  
+sections:
+  WIN-HIG-DAL:
+   points:
+    Eastbound:   ["Highbury & Islington Rail Station", "Dalston Junction Rail Station"]
+    Westbound:   ["Dalston Junction Rail Station", "Highbury & Islington Rail Station"]
+
+  WIN-DAL-SUR:
+   points:
+    Southbound_In:   ["Dalston Junction Rail Station", "Haggerston Rail Station"]
+    Southbound_Out:  ["Canada Water Rail Station", "Surrey Quays Rail Station"]
+    Northbound_In:   ["Surrey Quays Rail Station", "Canada Water Rail Station"]
+    Northbound_Out:  ["Haggerston Rail Station", "Dalston Junction Rail Station"]
+
+  WIN-SUR-NEC:
+   points:
+    Southbound:   ["Surrey Quays Rail Station", "New Cross Rail Station"]
+    Northbound:   ["New Cross Rail Station", "Surrey Quays Rail Station"]
+
+  WIN-SUR-SYD:
+   points:
+    Southbound_In:   ["Surrey Quays Rail Station", "New Cross Gate Rail Station"]
+    Southtbound_Out: ["Forest Hill Rail Station", "Sydenham Rail Station"]
+    Northbound_In:   ["Sydenham Rail Station", "Forest Hill Rail Station"]
+    Northbound_Out:  ["New Cross Gate Rail Station", "Surrey Quays Rail Station"]
+
+  WIN-SUR-CLA:
+   points:
+    Westbound_In:   ["Surrey Quays Rail Station", "Queens Road Peckham Rail Station"]
+    Westbound_Out:  ["Wandsworth Road Rail Station", "Clapham Junction Rail Station"]
+    Eastbound_In:   ["Clapham Junction Rail Station", "Wandsworth Road Rail Station"]
+    Eastbound_Out:  ["Queens Road Peckham Rail Station", "Surrey Quays Rail Station"]
+
+  WIN-SYD-CRY:
+   points:
+    Westbound:   ["Sydenham Rail Station", "Crystal Palace Rail Station"]
+    Eastbound:   ["Crystal Palace Rail Station", "Sydenham Rail Station"]
+
+  WIN-SYD-WES:
+   points:
+    Southbound_In:   ["Sydenham Rail Station", "Penge West Rail Station"]
+    Southbound_Out:  ["Norwood Junction Rail Station", "West Croydon Rail Station"]
+    Northbound_In:   ["West Croydon Rail Station", "Norwood Junction Rail Station"]
+    Northbound_Out:  ["Penge West Rail Station", "Sydenham Rail Station"]

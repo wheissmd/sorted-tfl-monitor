@@ -1,0 +1,65 @@
+line:
+  id: metropolitan
+  name: Metropolitan
+  mode: tube
+  line_token: metropolitan
+
+min_run_ab_default_min:
+  "Chesham Underground Station": 11
+  "Amersham Underground Station": 5
+  "Watford Underground Station": 2
+  "Uxbridge Underground Station": 2
+  "Baker Street Underground Station": 6
+  "Aldgate Underground Station": 6
+
+launch_dir_default:
+  "Chesham Underground Station": "Up"
+  "Amersham Underground Station": "Up"
+  "Watford Underground Station": "Up"
+  "Uxbridge Underground Station": "Up"
+  "Baker Street Underground Station": "Down"
+  "Aldgate Underground Station": "Down"
+
+stations_branch1:
+  "Amersham": 1
+  "Chesham": 1
+  "Chalfont & Latimer": 2
+  "Chorleywood": 3
+  "Rickmansworth": 4
+  
+stations_branch2:
+  "Watford": 3
+  "Croxley": 4
+  
+stations_branch3:
+  "Moor Park": 5
+  "Northwood": 6
+  "Northwood Hills": 7
+  "Pinner": 8
+  "North Harrow": 9
+  
+stations_branch4:
+  "Uxbridge": 2
+  "Hillingdon": 3
+  "Ickenham": 4
+  "Ruislip": 5
+  "Ruislip Manor": 6
+  "Eastcote": 7
+  "Rayners Lane": 8
+  "West Harrow": 9
+  
+stations_branch5:
+  "Harrow-on-the-Hill": 10
+  "Northwick Park": 11
+  "Preston Road": 12
+  "Wembley Park": 13
+  "Finchley Road": 14
+  "Baker Street": 15
+  "Great Portland Street": 16
+  "Euston Square": 17
+  "King's Cross St. Pancras": 18
+  "Farringdon": 19
+  "Barbican": 20
+  "Moorgate": 21
+  "Liverpool Street": 22
+  "Aldgate": 23

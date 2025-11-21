@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Mildmay" mode="overground" tz="Europe/London" window="11:00-12:00">
+   <Section>
+      MIL-STR-CAM
+      <Point>
+         Westbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>8</TPH>
+         <Headways>6 12 4 7 8 8 7 8</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>7</TPH>
+         <Headways>8 9 7 10 5 8 7</Headways>
+      </Point>
+      <Point>
+         Eastbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>9</TPH>
+         <Headways>14 4 8 5 11 4 10 5 10</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>8</TPH>
+         <Headways>5 13 4 8 7 9 4 11</Headways>
+      </Point>
+   </Section>
+   <Section>
+      MIL-CAM-WIL
+      <Point>
+         Westbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 6 9 7 11 4 10 5</Headways>
+      </Point>
+      <Point>
+         Westtbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>8</TPH>
+         <Headways>9 6 9 5 10 5 11 5</Headways>
+      </Point>
+      <Point>
+         Eastbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>8</TPH>
+         <Headways>9 7 10 4 11 4 10 6</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>9</TPH>
+         <Headways>4 8 5 11 4 10 5 10 5</Headways>
+      </Point>
+   </Section>
+   <Section>
+      MIL-WIL-CLA
+      <Point>
+         Southbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>10 17 14 14</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>9 10 17 14</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>11 20 12 17</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>13 11 20 12</Headways>
+      </Point>
+   </Section>
+   <Section>
+      MIL-WIL-SOA
+      <Point>
+         Southbound
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>14 15 16 14</Headways>
+      </Point>
+      <Point>
+         Northbound
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>14 16 14 16</Headways>
+      </Point>
+   </Section>
+   <Section>
+      MIL-SOA-RIC
+      <Point>
+         Southbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>9 14 16 15</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>5</TPH>
+         <Headways>11 9 14 16 15</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>14 16 14 16</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>11:00-12:00</Time>
+         <TPH>4</TPH>
+         <Headways>14 16 14 16</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

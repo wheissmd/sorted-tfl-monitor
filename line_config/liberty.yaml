@@ -1,0 +1,21 @@
+version: 1
+
+line:
+  id: liberty
+  name: Liberty
+  mode: overground
+  line_token: overground
+
+parameters:
+  step_min: 40
+  preroll_min: 40
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: overground
+  night_tube: 0
+  
+sections:
+  LIB-ROM-UPM:
+   points:
+    Southbound:   ["Romford Rail Station", "Emerson Park Rail Station"]
+    Northbound:   ["Upminster Rail Station", "Emerson Park Rail Station"]

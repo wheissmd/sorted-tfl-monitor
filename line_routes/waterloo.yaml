@@ -1,0 +1,17 @@
+line:
+  id: waterloo
+  name: Waterloo
+  mode: tube
+  line_token: waterloo
+
+min_run_ab_default_min:
+  "Bank Underground Station": 0
+  "Waterloo Underground Station": 0
+
+launch_dir_default:
+  "Bank Underground Station": "Up"
+  "Waterloo Underground Station": "Down"
+
+stations:
+  "Bank": 1
+  "Waterloo": 2

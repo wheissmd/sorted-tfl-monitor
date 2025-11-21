@@ -1,0 +1,76 @@
+line:
+  id: elizabeth
+  name: Elizabeth
+  mode: elizabeth-line
+  line_token: elizabeth
+
+min_run_ab_default_min:
+  "Reading Rail Station": 0
+  "Maidenhead Rail Station": 0
+  "Heathrow Terminal 5 Rail Station": 5
+  "Heathrow Terminal 4 Rail Station": 5
+  "Paddington Rail Station": 3
+  "Liverpool Street Rail Station": 0
+  "Gidea Park Rail Station": 3
+  "Shenfield Rail Station": 4
+
+launch_dir_default:
+  "Reading Rail Station": "Up"
+  "Maidenhead Rail Station": "Up"
+  "Heathrow Terminal 5 Rail Station": "Up"
+  "Heathrow Terminal 4 Rail Station": "Up"
+  "Paddington Rail Station": "Up"
+  "Liverpool Street Rail Station": "Up"
+  "Gidea Park Rail Station": "Down"
+  "Shenfield Rail Station": "Down"
+
+stations_branch1:
+  "Reading": 1
+  "Twyford": 2
+  "Maidenhead": 3
+  "Taplow": 4
+  "Burnham": 5
+  "Slough": 6
+  "Langley": 7
+  "Iver": 8
+  "West Drayton": 9
+  
+stations_branch2:
+  "Heathrow Terminal 5": 8
+  "Heathrow Terminal 4": 8
+  "Heathrow Terminals 2 & 3": 9
+  
+stations_branch3:
+  "Hayes & Harlington": 10
+  "Southall": 11
+  "Hanwell": 12
+  "West Ealing": 13
+  "Ealing Broadway": 14
+  "Acton Main Line": 15
+  "Paddington": 16
+  "Bond Street": 17
+  "Tottenham Court Road": 18
+  "Farringdon": 19
+  "Liverpool Street": 20
+  "Whitechapel": 21
+  
+stations_branch4:
+  "Stratford": 22
+  "Maryland": 23
+  "Forest Gate": 24
+  "Manor Park": 25
+  "Ilford": 26
+  "Seven Kings": 27
+  "Goodmayes": 28
+  "Chadwell Heath": 29
+  "Romford": 30
+  "Gidea Park": 31
+  "Harold Wood": 32
+  "Brentwood": 33
+  "Shenfield": 34
+  
+stations_branch5:
+  "Canary Wharf": 22
+  "Custom House": 23
+  "Woolwich": 24
+  "Abbey Wood": 25

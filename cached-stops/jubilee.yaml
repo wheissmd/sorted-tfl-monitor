@@ -1,0 +1,115 @@
+api_line_id: jubilee
+created: '2025-11-06T21:20:12.245158+00:00'
+mode: tube
+name_to_ids:
+  Canada Water Underground Station:
+  - 910GCNDAW
+  - 940GZZLUCWR
+  - 490G000438
+  Canary Wharf Underground Station:
+  - 910GCANWHRF
+  - 940GZZLUCYF
+  - 940GZZDLCAN
+  - 490G000917
+  Canning Town Underground Station:
+  - 940GZZDLCGT
+  - 940GZZLUCGT
+  Canons Park Underground Station:
+  - 9400ZZLUCPK2
+  - 4900ZZLUCPK2
+  - 940GZZLUCPK
+  - 9400ZZLUCPK
+  - 4900ZZLUCPK1
+  - 9400ZZLUCPK1
+  Dollis Hill Underground Station:
+  - 4900ZZLUDOH2
+  - 9400ZZLUDOH
+  - 940GZZLUDOH
+  - 9400ZZLUDOH1
+  - 9400ZZLUDOH2
+  - 4900ZZLUDOH1
+  Finchley Road Underground Station:
+  - 940GZZLUFYR
+  - 9400ZZLUFYR
+  - 9400ZZLUFYR1
+  - 9400ZZLUFYR4
+  - 4900ZZLUFYR1
+  - 9400ZZLUFYR2
+  - 9400ZZLUFYR3
+  Kilburn Underground Station:
+  - 940GZZLUKBN
+  - 9400ZZLUKBN
+  - 9400ZZLUKBN2
+  - 4900ZZLUKBN1
+  - 9400ZZLUKBN1
+  Kingsbury Underground Station:
+  - 4900ZZLUKBY1
+  - 9400ZZLUKBY
+  - 940GZZLUKBY
+  - 9400ZZLUKBY2
+  - 9400ZZLUKBY1
+  Neasden Underground Station:
+  - 9400ZZLUNDN
+  - 940GZZLUNDN
+  - 4900ZZLUNDN1
+  - 9400ZZLUNDN2
+  - 9400ZZLUNDN1
+  North Greenwich Underground Station:
+  - 940GZZALGWP
+  - 940GZZLUNGW
+  - 490G000682
+  Queensbury Underground Station:
+  - 9400ZZLUQBY2
+  - 9400ZZLUQBY
+  - 9400ZZLUQBY1
+  - 4900ZZLUQBY1
+  - 940GZZLUQBY
+  Stanmore Underground Station:
+  - 4900ZZLUSTM3
+  - 940GZZLUSTM
+  - 4900ZZLUSTM2
+  - 4900ZZLUSTM1
+  - 9400ZZLUSTM1
+  - 9400ZZLUSTM
+  Stratford Underground Station:
+  - 940GZZDLSTD
+  - 940GZZLUSTD
+  - 490G000773
+  - 490G00019793
+  - 910GSTFD
+  Swiss Cottage Underground Station:
+  - 4900ZZLUSWC3
+  - 4900ZZLUSWC1
+  - 4900ZZLUSWC5
+  - 9400ZZLUSWC1
+  - 9400ZZLUSWC
+  - 4900ZZLUSWC2
+  - 940GZZLUSWC
+  - 4900ZZLUSWC4
+  - 9400ZZLUSWC2
+  Wembley Park Underground Station:
+  - 9400ZZLUWYP6
+  - 4900ZZLUWYP2
+  - 9400ZZLUWYP2
+  - 9400ZZLUWYP4
+  - 9400ZZLUWYP
+  - 9400ZZLUWYP1
+  - 940GZZLUWYP
+  - 4900ZZLUWYP1
+  - 9400ZZLUWYP3
+  - 4900ZZLUWYP3
+  West Ham Underground Station:
+  - 940GZZDLWHM
+  - 910GWHAMHL
+  - 940GZZLUWHM
+  West Hampstead Underground Station:
+  - 910GWHMDSTD
+  - 910GWHMPSTM
+  - 940GZZLUWHP
+  Willesden Green Underground Station:
+  - 9400ZZLUWIG1
+  - 4900ZZLUWIG1
+  - 940GZZLUWIG
+  - 9400ZZLUWIG2
+  - 9400ZZLUWIG
+  - 4900ZZLUWIG2

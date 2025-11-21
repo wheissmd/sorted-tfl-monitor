@@ -1,0 +1,42 @@
+api_line_id: victoria
+created: '2025-11-06T21:21:09.855899+00:00'
+mode: tube
+name_to_ids:
+  Blackhorse Road Underground Station:
+  - 910GBLCHSRD
+  - 940GZZLUBLR
+  Brixton Underground Station:
+  - 940GZZLUBXN
+  - 910GBRIXTON
+  Finsbury Park Underground Station:
+  - 910GFNPK
+  - 490G000858
+  - 940GZZLUFPK
+  - 490G000516
+  Highbury & Islington Underground Station:
+  - 940GZZLUHAI
+  - 910GHGHI
+  Seven Sisters Underground Station:
+  - 910GSEVNSIS
+  - 490G000859
+  - 940GZZLUSVS
+  Stockwell Underground Station:
+  - 9400ZZLUSKW4
+  - 9400ZZLUSKW
+  - 9400ZZLUSKW1
+  - 9400ZZLUSKW2
+  - 9400ZZLUSKW3
+  - 940GZZLUSKW
+  - 4900ZZLUSKW1
+  - 4900ZZLUSKW2
+  Tottenham Hale Underground Station:
+  - 940GZZLUTMH
+  - 910GTTNHMHL
+  - 490G000667
+  Vauxhall Underground Station:
+  - 940GZZLUVXL
+  - 490G00020252
+  - 910GVAUXHLM
+  Walthamstow Central Underground Station:
+  - 940GZZLUWWL
+  - 910GWLTWCEN

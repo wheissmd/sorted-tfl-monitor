@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Circle" mode="tube" tz="Europe/London" window="16:00-17:00">
+   <Section>
+      CIR-HAM-PAD
+      <Point>
+         Eastbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 11 10 11 10</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 10 10 11 10</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>12</TPH>
+         <Headways>5 5 5 6 5 5 6 5 5 5 6 5</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>11</TPH>
+         <Headways>5 5 5 5 6 5 5 6 5 5 5</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-PAD-EDG
+      <Point>
+         Eastbound
+         <Time>16:00-17:00</Time>
+         <TPH>5</TPH>
+         <Headways>11 9 10 11 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>16:00-17:00</Time>
+         <TPH>11</TPH>
+         <Headways>5 5 5 6 5 5 5 6 5 6 5</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-EDG-BAK
+      <Point>
+         Eastbound
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>11 10 11 10 10 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>16:00-17:00</Time>
+         <TPH>12</TPH>
+         <Headways>5 5 6 5 5 6 4 6 5 5 5 5</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-BAK-LIV
+      <Point>
+         Eastbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 11 11 9 11 9</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>5</TPH>
+         <Headways>11 10 11 11 9</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>12</TPH>
+         <Headways>4 5 7 4 5 7 4 5 4 7 4 5</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>11</TPH>
+         <Headways>6 5 4 5 7 4 5 7 4 5 4</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-LIV-TOW
+      <Point>
+         Southbound
+         <Time>16:00-17:00</Time>
+         <TPH>5</TPH>
+         <Headways>11 10 11 11 9</Headways>
+      </Point>
+      <Point>
+         Northbound
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>9 12 9 11 9 11</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-TOW-HSK
+      <Point>
+         Westbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 11 9 12 11 10</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 9 11 10 11</Headways>
+      </Point>
+      <Point>
+         Eastbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>9 11 9 11 10 11</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 11 9 11 8 11</Headways>
+      </Point>
+   </Section>
+   <Section>
+      CIR-HSK-EDG
+      <Point>
+         Northbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>12</TPH>
+         <Headways>5 5 5 6 4 5 5 5 5 5 6 5</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>12</TPH>
+         <Headways>6 4 5 5 6 4 5 5 5 5 5 6</Headways>
+      </Point>
+      <Point>
+         Southbound_In
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 10 11 10 8</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>16:00-17:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 10 11 10 11</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

@@ -1,0 +1,18 @@
+line:
+  id: liberty
+  name: Liberty
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Romford Rail Station": 5
+  "Upminster Rail Station": 4
+
+launch_dir_default:
+  "Romford Rail Station": "Up"
+  "Upminster Rail Station": "Down"
+
+stations:
+  "Romford": 1
+  "Emerson Park": 2
+  "Upminster": 3

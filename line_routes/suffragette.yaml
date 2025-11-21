@@ -1,0 +1,29 @@
+line:
+  id: suffragette
+  name: Sufragette
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Barking Rail Station": 3
+  "Barking Riverside Rail Station": 6
+  "Gospel Oak Rail Station": 4
+
+launch_dir_default:
+  "Barking Rail Station": "Down"
+  "Barking Riverside Rail Station": "Down"
+  "Gospel Oak Rail Station": "Up"
+
+stations:
+  "Gospel Oak": 1
+  "Upper Holloway": 2
+  "Crouch Hill": 3
+  "Harringay Green Lanes": 4
+  "Blackhorse Road": 5
+  "Walthamstow Queen's Road": 6
+  "Leyton Midland Road": 7
+  "Leytonstone High Road": 8
+  "Wanstead Park": 9
+  "Woodgrange Park": 10
+  "Barking": 11
+  "Barking Riverside": 12

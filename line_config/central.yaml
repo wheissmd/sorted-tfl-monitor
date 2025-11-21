@@ -1,0 +1,134 @@
+version: 1
+
+line:
+  id: central
+  name: Central
+  mode: tube
+  line_token: central
+
+parameters:
+  step_min: 5
+  preroll_min: 20
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 1
+  
+sections:
+  CEN-WES-NOR:
+   step_min: 7
+   preroll_min: 20
+   points:
+    Eastbound_In:  ["West Ruislip Underground Station", "Ruislip Gardens Underground Station"]
+    Eastbound_Out: ["South Ruislip Underground Station", "Northolt Underground Station"]
+    Westbound_In:  ["Northolt Underground Station", "South Ruislip Underground Station"]
+    Westbound_Out: ["Ruislip Gardens Underground Station", "West Ruislip Underground Station"]
+
+  CEN-NOR-NOA:
+   step_min: 7
+   preroll_min: 20
+   points:
+    Eastbound_In:  ["Northolt Underground Station", "Greenford Underground Station"]
+    Eastbound_Out: ["Hanger Lane Underground Station", "North Acton Underground Station"]
+    Westbound_In:  ["North Acton Underground Station", "Hanger Lane Underground Station"]
+    Westbound_Out: ["Greenford Underground Station", "Northolt Underground Station"]
+
+  CEN-EAB-NOA:
+   step_min: 7
+   preroll_min: 20
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Eastbound:  ["Ealing Broadway Underground Station", "North Acton Underground Station"]
+    Westbound:  ["North Acton Underground Station", "Ealing Broadway Underground Station"]
+
+  CEN-NOA-WHI:
+   step_min: 4
+   preroll_min: 8
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Eastbound:  ["North Acton Underground Station", "White City Underground Station"]
+    Westbound:  ["White City Underground Station", "North Acton Underground Station"]
+
+  CEN-WHI-MAR:
+   step_min: 4
+   preroll_min: 8
+   n_step_min: 20
+   n_preroll_min: 20
+   points:
+    Eastbound_In:  ["White City Underground Station", "Holland Park Underground Station"]
+    Eastbound_Out: ["Lancaster Gate Underground Station", "Marble Arch Underground Station"]
+    Westbound_In:  ["Marble Arch Underground Station", "Lancaster Gate Underground Station"]
+    Westbound_Out: ["Holland Park Underground Station", "White City Underground Station"]
+
+  CEN-MAR-LEY:
+   step_min: 4  
+   preroll_min: 8
+   n_step_min: 20
+   n_preroll_min: 20
+   points:
+    Eastbound_In:  ["Marble Arch Underground Station", "Bond Street Underground Station"]
+    Eastbound_Out: ["Leyton Underground Station", "Leytonstone Underground Station"]
+    Westbound_In:  ["Leytonstone Underground Station", "Leyton Underground Station"]
+    Westbound_Out: ["Bond Street Underground Station", "Marble Arch Underground Station"]
+
+  CEN-LEY-WOO:
+   step_min: 7  
+   preroll_min: 10
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Northbound_In:  ["Leytonstone Underground Station", "Snaresbrook Underground Station"]
+    Northbound_Out: ["South Woodford Underground Station", "Woodford Underground Station"]
+    Southbound_In:  ["Woodford Underground Station", "South Woodford Underground Station"]
+    Southbound_Out: ["Snaresbrook Underground Station", "Leytonstone Underground Station"]
+
+  CEN-LEY-NEW:
+   step_min: 7
+   preroll_min: 10
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Northbound_In:  ["Leytonstone Underground Station", "Wanstead Underground Station"]
+    Northbound_Out: ["Gants Hill Underground Station", "Newbury Park Underground Station"]
+    Southbound_In:  ["Newbury Park Underground Station", "Gants Hill Underground Station"]
+    Southbound_Out: ["Wanstead Underground Station", "Leytonstone Underground Station"]
+
+  CEN-NEW-HAI:
+   step_min: 7
+   preroll_min: 15
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Northbound_In:  ["Newbury Park Underground Station", "Barkingside Underground Station"]
+    Northbound_Out: ["Fairlop Underground Station", "Hainault Underground Station"]
+    Southbound_In:  ["Hainault Underground Station", "Fairlop Underground Station"]
+    Southbound_Out: ["Barkingside Underground Station", "Newbury Park Underground Station"]
+
+  CEN-HAI-WOO:
+   step_min: 20
+   preroll_min: 30
+   points:
+    Westbound_In:  ["Hainault Underground Station", "Grange Hill Underground Station"]
+    Westbound_Out: ["Roding Valley Underground Station", "Woodford Underground Station"]
+    Eastbound_In:  ["Woodford Underground Station", "Roding Valley Underground Station"]
+    Eastbound_Out: ["Grange Hill Underground Station", "Hainault Underground Station"]
+
+  CEN-WOO-LOU:
+   step_min: 7
+   preroll_min: 10
+   n_step_min: 30
+   n_preroll_min: 30
+   points:
+    Northbound:  ["Woodford Underground Station", "Loughton Underground Station"]
+    Southbound:  ["Loughton Underground Station", "Woodford Underground Station"]
+
+  CEN-LOU-EPP:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Northbound_In:  ["Loughton Underground Station", "Debden Underground Station"]
+    Northbound_Out: ["Theydon Bois Underground Station", "Epping Underground Station"]
+    Southbound_In:  ["Epping Underground Station", "Theydon Bois Underground Station"]
+    Southbound_Out: ["Debden Underground Station", "Loughton Underground Station"]

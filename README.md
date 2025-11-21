@@ -36,6 +36,20 @@ pip install -r requirements.txt
 
 ## 3. How to Use
 
+### Setting Up
+
+Create a `.env` file and ensure it follows this format
+
+```sh
+TFL_APP_KEY=[KEY_FROM_TFL_API]
+S3_BUCKET=darwin.xmltimetable
+S3_OBJECT_PREFIX=PPTimetable/
+ACCESS_KEY=[ACCES_KEY_FROM_DARWIN]
+SECRET_KEY=[SECRET_KEY_FROM_DARWIN]
+REGION=eu-west-1
+```
+
+
 This project works in three stages:  
 **(1) Build planned timetables**, **(2) Record observed departures**, and **(3) Calculate ETPH and weighted waiting-time metrics**.
 

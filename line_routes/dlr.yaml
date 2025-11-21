@@ -1,0 +1,92 @@
+line:
+  id: dlr
+  name: DLR
+  mode: dlr
+  line_token: dlr
+
+min_run_ab_default_min:
+  "Stratford International DLR Station": 3
+  "Stratford DLR Station": 2
+  "Bank DLR Station": 4
+  "Tower Gateway DLR Station": 2
+  "Canary Wharf DLR Station": 3
+  "Beckton DLR Station": 2
+  "Woolwich Arsenal DLR Station": 2
+  "Lewisham DLR Station": 1
+  "Canning Town": 3
+
+launch_dir_default:
+  "Stratford International DLR Station": "Up"
+  "Stratford DLR Station": "Up"
+  "Bank DLR Station": "Up"
+  "Tower Gateway DLR Station": "Up"
+  "Canary Wharf DLR Station": "Down"
+  "Beckton DLR Station": "Down"
+  "Woolwich Arsenal DLR Station": "Down"
+  "Lewisham DLR Station": "Down"
+  "Canning Town": "Up"
+
+stations_branch1:
+  "Stratford International": 1
+  "Stratford": 2
+  
+stations_branch2:
+  "Pudding Mill Lane": 3
+  "Bow Church": 4
+  "Devons Road": 5
+  "Langdon Park": 6
+  "All Saints": 7
+  
+stations_branch3:
+  "Bank": 4
+  "Tower Gateway": 4
+  "Shadwell": 5
+  "Limehouse": 6
+  "Westferry": 7
+
+stations_branch4:
+  "Poplar": 8
+  
+stations_branch5:
+  "Stratford High Street": 7
+  "Abbey Road": 8
+  "West Ham": 9
+  "Star Lane": 10
+
+stations_branch6:
+  "Blackwall": 9
+  "East India": 10
+  
+stations_branch7:
+  "Canning Town": 11
+
+stations_branch8:
+  "Royal Victoria": 12
+  "Custom House": 13
+  "Prince Regent": 14
+  "Royal Labert": 15
+  "Beckton Park": 16
+  "Cyprus": 17
+  "Gallions Reach": 18
+  "Beckton": 19
+  
+station_branch9:
+  "West Silvertown": 14
+  "Pontoon Dock": 15
+  "London City Airport": 16
+  "King George V": 17
+  "Woolwich Arsenal": 18
+  
+stations_branch10:
+  "West India Quay": 9
+  "Canary Wharf": 10
+  "Heron Quays": 11
+  "South Quay": 12
+  "Crossharbour": 13
+  "Mudchute": 14
+  "Island Gardens": 15
+  "Cutty Sark": 16
+  "Greenwich": 17
+  "Deptford Bridge": 18
+  "Elverson Road": 19
+  "Lewisham": 20

@@ -1,0 +1,98 @@
+version: 1
+
+line:
+  id: dlr
+  name: DLR
+  mode: dlr
+  line_token: dlr
+
+parameters:
+  step_min: 5
+  preroll_min: 15
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: dlr
+  night_tube: 0
+  
+sections:
+  DLR-STI-CAT:
+   step_min: 7
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Stratford International DLR Station", "Stratford DLR Station"]
+    Southbound_Out: ["Star Lane DLR Station", "Canning Town DLR Station"]
+    Northbound_In:  ["Canning Town DLR Station", "Star Lane DLR Station"]
+    Northbound_Out: ["Stratford DLR Station", "Stratford International DLR Station"]
+
+  DLR-STR-CAN:
+   step_min: 7
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Stratford DLR Station", "Pudding Mill Lane DLR Station"]
+    Southbound_Out: ["Poplar DLR Station", "Canary Wharf DLR Station"]
+    Northbound_In:  ["Canary Wharf DLR Station", "Poplar DLR Station"]
+    Northbound_Out: ["Pudding Mill Lane DLR Station", "Stratford DLR Station"]
+
+  DLR-BAN-SHA:
+   step_min: 4
+   preroll_min: 15
+   points:
+    Eastbound:  ["Bank DLR Station", "Shadwell DLR Station"]
+    Westbound:  ["Shadwell DLR Station", "Bank DLR Station"]
+  
+  DLR-TOW-SHA:
+   step_min: 15
+   preroll_min: 15
+   points:
+    Eastbound:  ["Tower Gateway DLR Station", "Shadwell DLR Station"]
+    Westbound:  ["Shadwell DLR Station", "Tower Gateway DLR Station"]
+
+  DLR-SHA-WES:
+   step_min: 4
+   preroll_min: 11
+   points:
+    Eastbound:  ["Shadwell DLR Station", "Westferry DLR Station"]
+    Westbound:  ["Westferry DLR Station", "Shadwell DLR Station"]
+
+  DLR-WES-CAT:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Westferry DLR Station", "Poplar DLR Station"]
+    Southbound_Out: ["East India DLR Station", "Canning Town DLR Station"]
+    Northbound_In:  ["Canning Town DLR Station", "East India DLR Station"]
+    Northbound_Out: ["Poplar DLR Station", "Westferry DLR Station"]
+
+  DLR-WES-CAN:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Eastbound:  ["Westferry DLR Station", "Canary Wharf DLR Station"]
+    Westbound:  ["Canary Wharf DLR Station", "Westferry DLR Station"]
+
+  DLR-CAN-LEW:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Canary Wharf DLR Station", "Heron Quays DLR Station"]
+    Southbound_Out: ["Elverson Road DLR Station", "Lewisham DLR Station"]
+    Northbound_In:  ["Lewisham DLR Station", "Elverson Road DLR Station"]
+    Northbound_Out: ["Heron Quays DLR Station", "Canary Wharf DLR Station"]
+
+  DLR-CAT-BEC:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Canning Town DLR Station", "Royal Victoria DLR Station"]
+    Southbound_Out: ["Gallions Reach DLR Station", "Beckton DLR Station"]
+    Northbound_In:  ["Beckton DLR Station", "Gallions Reach DLR Station"]
+    Northbound_Out: ["Royal Victoria DLR Station", "Canning Town DLR Station"]
+
+  DLR-CAT-WOL:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Southbound_In:  ["Canning Town DLR Station", "West Silvertown DLR Station"]
+    Southbound_Out: ["King George V DLR Station", "Woolwich Arsenal DLR Station"]
+    Northbound_In:  ["Woolwich Arsenal DLR Station", "King George V DLR Station"]
+    Northbound_Out: ["West Silvertown DLR Station", "Canning Town DLR Station"]

@@ -1,0 +1,76 @@
+version: 1
+
+line:
+  id: jubilee
+  name: Jubilee
+  mode: tube
+  line_token: jubilee
+
+parameters:
+  step_min: 5
+  preroll_min: 20
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 1
+  
+sections:
+  JUB-STA-WEM:
+   step_min: 5
+   preroll_min: 15
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["Stanmore Underground Station", "Canons Park Underground Station"]
+    Southbound_Out: ["Kingsbury Underground Station", "Wembley Park Underground Station"]
+    Northbound_In:  ["Wembley Park Underground Station", "Kingsbury Underground Station"]
+    Northbound_Out: ["Canons Park Underground Station", "Stanmore Underground Station"]
+
+  JUB-WEM-WIL:
+   step_min: 5
+   preroll_min: 15
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["Wembley Park Underground Station", "Neasden Underground Station"]
+    Southbound_Out: ["Dollis Hill Underground Station", "Willesden Green Underground Station"]
+    Northbound_In:  ["Willesden Green Underground Station", "Dollis Hill Underground Station"]
+    Northbound_Out: ["Neasden Underground Station", "Wembley Park Underground Station"]
+
+  JUB-WIL-WES:
+   step_min: 5
+   preroll_min: 11
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound:  ["Willesden Green Underground Station", "West Hampstead Underground Station"]
+    Northbound:  ["West Hampstead Underground Station", "Willesden Green Underground Station"]
+
+  JUB-WES-NOR:
+   step_min: 4
+   preroll_min: 5
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["West Hampstead Underground Station", "Finchley Road Underground Station"]
+    Souhbound_Out:  ["Canary Wharf Underground Station", "North Greenwich Underground Station"]
+    Northbound_In:  ["North Greenwich Underground Station", "Canary Wharf Underground Station"]
+    Northbound_Out: ["Finchley Road Underground Station", "West Hampstead Underground Station"]
+
+  JUB-NOR-WEH:
+   step_min: 4
+   preroll_min: 7
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Eastbound:  ["North Greenwich Underground Station", "West Ham Underground Station"]
+    Westbound:  ["West Ham Underground Station", "North Greenwich Underground Station"]
+
+  JUB-WEH-STR:
+   step_min: 4
+   preroll_min: 8
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Eastbound:  ["West Ham Underground Station", "Stratford Underground Station"]
+    Westbound:  ["Stratford Underground Station", "West Ham Underground Station"]

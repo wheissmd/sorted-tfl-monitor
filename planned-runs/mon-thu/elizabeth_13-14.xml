@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Elizabeth" mode="elizabeth-line" tz="Europe/London" window="13:00-14:00">
+   <Section>
+      LIZ-REA-MAI
+      <Point>
+         Eastbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>29 31</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-MAI-EAL
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>5</TPH>
+         <Headways>19 11 19 11 18</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>18 13 18 11</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 16 14 15</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>14 15 15 16</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-HT5-HT2
+      <Point>
+         Eastbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>13:00-14:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-HT4-HT2
+      <Point>
+         Eastbound
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-HT2-EAL
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>6</TPH>
+         <Headways>11 15 4 11 15 4</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>6</TPH>
+         <Headways>15 4 11 16 3 11</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>6</TPH>
+         <Headways>15 11 4 15 11 4</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>6</TPH>
+         <Headways>15 8 7 15 9 6</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-EAL-PAD
+      <Point>
+         Eastbound
+         <Time>13:00-14:00</Time>
+         <TPH>9</TPH>
+         <Headways>8 4 4 8 7 8 3 4 7</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>13:00-14:00</Time>
+         <TPH>10</TPH>
+         <Headways>8 4 3 8 7 8 4 3 8 7</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-PAD-LIV
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>16</TPH>
+         <Headways>4 4 3 4 4 4 3 4 4 4 3 4 4 4 3 4</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>16</TPH>
+         <Headways>3 4 4 4 3 4 4 4 3 4 4 4 3 4 4 4</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>16</TPH>
+         <Headways>4 4 4 3 4 4 4 3 4 4 4 3 4 4 4 3</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>16</TPH>
+         <Headways>4 3 4 4 4 3 4 4 4 3 4 4 4 3 4 4</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-LIV-GID
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 7 8 7 8 7 8</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 7 8 7 8 7 8</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 8 7 8 7 8 7</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 7 8 7 8 7 8 7</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-GID-SHE
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 7 8 7 8 7 8</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 7 8 7 8 7 8 7</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 8 7 8 7 8 7 8</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 8 7 8 7 8 7</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIZ-LIV-ABB
+      <Point>
+         Eastbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 7 8 7 8 7 8 7</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 7 8 7 8 7 8 7</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>8 7 8 7 8 7 8 7</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>8</TPH>
+         <Headways>7 8 7 8 7 8 7 8</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

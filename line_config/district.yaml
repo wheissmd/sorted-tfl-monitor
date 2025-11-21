@@ -1,0 +1,116 @@
+version: 1
+
+line:
+  id: district
+  name: District
+  mode: tube
+  line_token: district
+
+parameters:
+  step_min: 5
+  preroll_min: 25
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  DIS-RIC-TUR:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Eastbound_In:  ["Richmond Underground Station", "Kew Gardens Underground Station"]
+    Eastbound_Out: ["Gunnersbury Underground Station", "Turnham Green Underground Station"]
+    Westbound_In:  ["Turnham Green Underground Station", "Gunnersbury Underground Station"]
+    Westbound_Out: ["Kew Gardens Underground Station", "Richmond Underground Station"]
+
+  DIS-EAB-EAC:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Eastbound:  ["Ealing Broadway Underground Station", "Ealing Common Underground Station"]
+    Westbound:  ["Ealing Common Underground Station", "Ealing Broadway Underground Station"]
+
+  DIS-EAC-TUR:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Eastbound_In:  ["Ealing Common Underground Station", "Acton Town Underground Station"]
+    Eastbound_Out: ["Chiswick Park Underground Station", "Turnham Green Underground Station"]
+    Westbound_In:  ["Turnham Green Underground Station", "Chiswick Park Underground Station"]
+    Westbound_Out: ["Acton Town Underground Station", "Ealing Common Underground Station"]
+
+  DIS-TUR-BAC:
+   step_min: 7
+   preroll_min: 7
+   points:
+    Eastbound_In:  ["Turnham Green Underground Station", "Stamford Brook Underground Station"]
+    Eastbound_Out: ["Ravenscourt Park Underground Station", "Barons Court Underground Station"]
+    Westbound_In:  ["Barons Court Underground Station", "Ravenscourt Park Underground Station"]
+    Westbound_Out: ["Stamford Brook Underground Station", "Turnham Green Underground Station"]
+
+  DIS-BAC-EAR:
+   step_min: 7
+   preroll_min: 7
+   points:
+    Eastbound:  ["Barons Court Underground Station", "West Kensington Underground Station"]
+    Westbound:  ["Earl's Court Underground Station", "West Kensington Underground Station"]
+
+  DIS-KEN-EAR:
+   step_min: 10
+   preroll_min: 25
+   points:
+    Eastbound:  ["Kensington (Olympia) Underground Station", "Earl's Court Underground Station"]
+    Westbound:  ["Earl's Court Underground Station", "Kensington (Olympia) Underground Station"]
+
+  DIS-WIM-EAR:
+   step_min: 5
+   preroll_min: 10
+   points:
+    Eastbound_In:  ["Wimbledon Underground Station", "Wimbledon Park Underground Station"]
+    Eastbound_Out: ["West Brompton Underground Station", "Earl's Court Underground Station"]
+    Westbound_In:  ["Earl's Court Underground Station", "West Brompton Underground Station"]
+    Westbound_Out: ["Wimbledon Park Underground Station", "Wimbledon Underground Station"]
+
+  DIS-EAR-HSK:
+   step_min: 8
+   preroll_min: 10
+   points:
+    Eastbound:  ["Earl's Court Underground Station", "High Street Kensington Underground Station"]
+    Westbound:  ["High Street Kensington Underground Station", "Earl's Court Underground Station"]
+
+  DIS-HSK-EDG:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Eastbound_In:  ["High Street Kensington Underground Station", "Notting Hill Gate Underground Station"]
+    Eastbound_Out: ["Bayswater Underground Station", "Edgware Road Underground Station"]
+    Westbound_In:  ["Edgware Road Underground Station", "Bayswater Underground Station"]
+    Westbound_Out: ["Notting Hill Gate Underground Station", "High Street Kensington Underground Station"]
+
+  DIS-EAR-TOW:
+   step_min: 2
+   preroll_min: 7
+   points:
+    Eastbound_In:  ["Earl's Court Underground Station", "Sloane Square Underground Station"]
+    Eastbound_Out: ["Monument Underground Station", "Tower Hill Underground Station"]
+    Westbound_In:  ["Tower Hill Underground Station", "Monument Underground Station"]
+    Westbound_Out: ["Sloane Square Underground Station", "Earl's Court Underground Station"]
+
+  DIS-TOW-BAR:
+   step_min: 4
+   preroll_min: 7
+   points:
+    Eastbound_In:  ["Tower Hill Underground Station", "Aldgate East Underground Station"]
+    Eastbound_Out: ["East Ham Underground Station", "Barking Underground Station"]
+    Westbound_In:  ["Barking Underground Station", "East Ham Underground Station"]
+    Westbound_Out: ["Aldgate East Underground Station", "Tower Hill Underground Station"]
+
+  DIS-BAR-UPM:
+   step_min: 5
+   preroll_min: 15
+   points:
+    Eastbound_In:  ["Barking Underground Station", "Upney Underground Station"]
+    Eastbound_Out: ["Upminster Bridge Underground Station", "Upminster Underground Station"]
+    Westbound_In:  ["Upminster Underground Station", "Upminster Bridge Underground Station"]
+    Westbound_Out: ["Upney Underground Station", "Barking Underground Station"]

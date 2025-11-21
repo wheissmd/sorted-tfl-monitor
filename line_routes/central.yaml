@@ -1,0 +1,54 @@
+line:
+  id: central
+  name: Central
+  mode: tube
+  line_token: central
+
+min_run_ab_default_min:
+  "West Ruislip Underground Station": 3
+  "Northolt Underground Station": 2
+  "Ealing Broadway Underground Station": 2
+  "White City Underground Station": 4
+  "Newbury Park Underground Station": 3
+  "Hainault Underground Station": 2
+  "Woodford Underground Station": 2
+  "Loughton Underground Station": 2
+  "Epping Underground Station": 2
+
+launch_dir_default:
+  "West Ruislip Underground Station": "Up"
+  "Northolt Underground Station": "Up"
+  "Ealing Broadway Underground Station": "Up"
+  "White City Underground Station": "Up"
+  "Newbury Park Underground Station": "Up"
+  "Hainault Underground Station": "Down"
+  "Woodford Underground Station": "Both"
+  "Loughton Underground Station": "Down"
+  "Epping Underground Station": "Down"
+
+stations:
+  "Harrow & Wealdstone": 1
+  "Kenton": 2
+  "South Kenton": 3
+  "North Wembley": 4
+  "Wembley Central": 5
+  "Stonebridge Park": 6
+  "Harlesden": 7
+  "Willesden Junction": 8
+  "Kensal Green": 9
+  "Queen's Park": 10
+  "Kilburn Park": 11
+  "Maida Vale": 12
+  "Warwick Avenue": 13
+  "Paddington": 14
+  "Edgware Road": 15
+  "Marylebone": 16
+  "Baker Street": 17
+  "Regent's Park": 18
+  "Oxford Circus": 19
+  "Piccadilly Circus": 20
+  "Charing Cross": 21
+  "Embankment": 22
+  "Waterloo": 23
+  "Lambeth North": 24
+  "Elephant & Castle": 25

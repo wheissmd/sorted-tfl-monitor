@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Victoria" mode="tube" tz="Europe/London" window="18:00-19:00">
+   <Section>
+      VIC_WAL-SEV
+      <Point>
+         Southbound_In
+         <Time>18:00-19:00</Time>
+         <TPH>35</TPH>
+         <Headways>2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 2 1 2 2 2 2</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>18:00-19:00</Time>
+         <TPH>36</TPH>
+         <Headways>2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 2 2 2 1</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>18:00-19:00</Time>
+         <TPH>35</TPH>
+         <Headways>1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 3 2 2 2</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>18:00-19:00</Time>
+         <TPH>35</TPH>
+         <Headways>2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 3 2</Headways>
+      </Point>
+   </Section>
+   <Section>
+      VIC-SEV-BRI
+      <Point>
+         Southbound_In
+         <Time>18:00-19:00</Time>
+         <TPH>36</TPH>
+         <Headways>1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 2 2 1</Headways>
+      </Point>
+      <Point>
+         Southbound_Out
+         <Time>18:00-19:00</Time>
+         <TPH>36</TPH>
+         <Headways>2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>18:00-19:00</Time>
+         <TPH>36</TPH>
+         <Headways>2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 1</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>18:00-19:00</Time>
+         <TPH>36</TPH>
+         <Headways>1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2 1 2 2</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

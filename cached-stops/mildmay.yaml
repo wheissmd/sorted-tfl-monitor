@@ -1,0 +1,81 @@
+api_line_id: mildmay
+created: '2025-11-06T21:37:51.482968+00:00'
+mode: overground
+name_to_ids:
+  Caledonian Road Rail Station:
+  - 9100CLDNNRB
+  - 4900CLDNNRB1
+  - 910GCLDNNRB
+  - 9100CLDNNRB1
+  Camden Road Rail Station:
+  - 910GCMDNRD
+  - 4900CMDNRD1
+  - 9100CMDNRD1
+  - 9100CMDNRD0
+  - 9100CMDNRD
+  Clapham Junction Rail Station:
+  - 910GCLPHMJC
+  - 490G000462
+  - 490G00005333
+  - 490G000855
+  Gunnersbury Rail Station:
+  - 910GGNRSBRY
+  - 940GZZLUGBY
+  Hackney Wick Rail Station:
+  - 910GHACKNYW
+  - 4900HACKNYW2
+  - 9100HACKNYW0
+  - 4900HACKNYW1
+  - 9100HACKNYW
+  - 9100HACKNYW1
+  Homerton Rail Station:
+  - 9100HOMRTON
+  - 9100HOMRTON2
+  - 910GHOMRTON
+  - 9100HOMRTON1
+  - 4900HOMRTON1
+  Imperial Wharf Rail Station:
+  - 910GCSEAH
+  Kensal Rise Rail Station:
+  - 4900KENR1
+  - 9100KENR0
+  - 9100KENR
+  - 4900KENR2
+  - 9100KENR1
+  - 910GKENR
+  Kentish Town West Rail Station:
+  - 4900KNTSHTW1
+  - 9100KNTSHTW1
+  - 9100KNTSHTW
+  - 910GKNTSHTW
+  - 9100KNTSHTW0
+  Kew Gardens Rail Station:
+  - 940GZZLUKWG
+  - 910GKEWGRDN
+  Richmond Rail Station:
+  - 910GRICHMND
+  - 940GZZLURMD
+  - HUBRMD
+  Shepherd's Bush Rail Station:
+  - 910GSHPDSB
+  - 940GZZLUSBC
+  South Acton Rail Station:
+  - 4900SACTON2
+  - 4900SACTON1
+  - 910GSACTON
+  - 9100SACTON0
+  - 9100SACTON
+  - 9100SACTON1
+  Stratford Rail Station:
+  - 490G000773
+  - HUBSRA
+  - 490G00019793
+  - 940GZZLUSTD
+  - 940GZZDLSTD
+  - 910GSTFD
+  West Brompton Rail Station:
+  - 940GZZLUWBN
+  - 910GWBRMPTN
+  Willesden Junction Rail Station:
+  - 910GWLSDJHL
+  - 940GZZLUWJN

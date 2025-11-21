@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Liberty" mode="overground" tz="Europe/London" window="14:00-15:00">
+   <Section>
+      LIB-ROM-UPM
+      <Point>
+         Southbound
+         <Time>14:00-15:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+      <Point>
+         Northbound
+         <Time>14:00-15:00</Time>
+         <TPH>2</TPH>
+         <Headways>30 30</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

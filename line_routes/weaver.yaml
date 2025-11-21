@@ -1,0 +1,53 @@
+line:
+  id: weaver
+  name: Weaver
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Liverpool Street Rail Station": 0
+  "Chingford Rail Station": 4
+  "Cheshunt Rail Station": 4
+  "Enfield Town Rail Station": 3
+
+launch_dir_default:
+  "Liverpool Street Rail Station": "Up"
+  "Chingford Rail Station": "Down"
+  "Cheshunt Rail Station": "Down"
+  "Enfield Town Rail Station": "Down"
+
+
+stations_branch1:
+  "Liverpool Street": 1
+  "Bethnal Green": 2
+  "Cambridge Heath": 3
+  "London Fields": 4
+  "Hackney Downs": 5
+  
+stations_branch2:
+  "Clapton": 6
+  "St James Street": 7
+  "Walthamstow Central": 8
+  "Wood Street": 9
+  "Highams Park": 10
+  "Chingford": 11
+  
+stations_branch3:
+  "Rectory Road": 6
+  "Stoke Newington": 7
+  "Stamford Hill": 8
+  "Seven Sisters": 9
+  "Bruce Grove": 10
+  "White Hart Lane": 11
+  "Silver Street": 12
+  "Edmonton Green": 13
+  
+stations_branch4:
+  "Southbury": 16
+  "Turkey Street": 17
+  "Theobalds Grove": 18
+  "Cheshunt": 19
+ 
+stations_branch5:
+ "Bush Hill Park": 14
+ "Enfield Town": 15

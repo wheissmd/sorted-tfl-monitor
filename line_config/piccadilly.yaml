@@ -1,0 +1,129 @@
+version: 1
+
+line:
+  id: piccadilly
+  name: Piccadilly
+  mode: tube
+  line_token: piccadilly
+
+parameters:
+  step_min: 5
+  preroll_min: 30
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 1
+  
+sections:
+  PIC-HT5-HAT:
+   m_step_min: 20
+   m_preroll_min: 20
+   step_min: 15
+   preroll_min: 15
+   points:
+    Eastbound:  ["Heathrow Terminal 5 Underground Station", "Heathrow Terminals 2 & 3 Underground Station"]
+    Westbound:  ["Heathrow Terminals 2 & 3 Underground Station", "Heathrow Terminal 5 Underground Station"]
+
+  PIC-HT4-HAT:
+   step_min: 15
+   preroll_min: 15
+   points:
+    Eastbound:  ["Heathrow Terminal 4 Underground Station", "Heathrow Terminals 2 & 3 Underground Station"]
+    Westbound:  ["Hatton Cross Underground Station", "Heathrow Terminal 4 Underground Station"]
+
+  PIC-HAT-NOR:
+   m_step_min: 20
+   m_preroll_min: 20
+   step_min: 5
+   preroll_min: 10
+   points:
+    Eastbound_In:  ["Hatton Cross Underground Station", "Hounslow West Underground Station"]
+    Eastbound_Out: ["Boston Manor Underground Station", "Northfields Underground Station"]
+    Westbound_In:  ["Northfields Underground Station", "Boston Manor Underground Station"]
+    Westbound_Out: ["Hounslow West Underground Station", "Hatton Cross Underground Station"]
+
+  PIC-NOR-ACT:
+   m_step_min: 20
+   m_preroll_min: 20
+   step_min: 5
+   preroll_min: 10
+   points:
+    Eastbound_In:  ["Northfields Underground Station", "South Ealing Underground Station"]
+    Eastbound_Out: ["South Ealing Underground Station", "Acton Town Underground Station"]
+    Westbound_In:  ["Acton Town Underground Station", "South Ealing Underground Station"]
+    Westbound_Out: ["South Ealing Underground Station", "Northfields Underground Station"]
+
+  PIC-UXB-RAY:
+   step_min: 7
+   preroll_min: 30
+   points:
+    Eastbound_In:  ["Uxbridge Underground Station", "Hillingdon Underground Station"]
+    Eastbound_Out: ["Eastcote Underground Station", "Rayners Lane Underground Station"]
+    Westbound_In:  ["Rayners Lane Underground Station", "Eastcote Underground Station"]
+    Westbound_Out: ["Hillingdon Underground Station", "Uxbridge Underground Station"]
+
+  PIC-RAY-NEA:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Eastbound_In:  ["Rayners Lane Underground Station", "South Harrow Underground Station"]
+    Eastbound_Out: ["Park Royal Underground Station", "North Ealing Underground Station"]
+    Westbound_In:  ["North Ealing Underground Station", "Park Royal Underground Station"]
+    Westbound_Out: ["South Harrow Underground Station", "Rayners Lane Underground Station"]
+
+  PIC-NEA-EAC:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Eastbound:  ["North Ealing Underground Station", "Ealing Common Underground Station"]
+    Westbound:  ["Ealing Common Underground Station", "North Ealing Underground Station"]
+
+  PIC-EAC-ACT:
+   step_min: 10
+   preroll_min: 15
+   points:
+    Eastbound:  ["Ealing Common Underground Station", "Acton Town Underground Station"]
+    Westbound:  ["Acton Town Underground Station", "Ealing Common Underground Station"]
+
+  PIC-ACT-BAC: 
+   step_min: 4
+   preroll_min: 7
+   m_step_min: 20
+   m_preroll_min: 20
+   points:
+    Eastbound:  ["Acton Town Underground Station", "Barons Court Underground Station"]
+    Westbound:  ["Barons Court Underground Station", "Acton Town Underground Station"]
+
+  PIC-BAC-HOL:
+   step_min: 4
+   preroll_min: 7
+   m_step_min: 20
+   m_preroll_min: 20
+   points:
+    Eastbound_In:  ["Barons Court Underground Station", "Earl's Court Underground Station"]
+    Eastbound_Out: ["Covent Garden Underground Station", "Holborn Underground Station"]
+    Westbound_In:  ["Holborn Underground Station", "Covent Garden Underground Station"]
+    Westbound_Out: ["Earl's Court Underground Station", "Barons Court Underground Station"]
+
+  PIC-HOL-ARN:
+   step_min: 4
+   preroll_min: 7
+   m_step_min: 20
+   m_preroll_min: 20
+   points:
+    Eastbound_In:  ["Holborn Underground Station", "Russell Square Underground Station"]
+    Eastbound_Out: ["Bounds Green Underground Station", "Arnos Grove Underground Station"]
+    Westbound_In:  ["Arnos Grove Underground Station", "Bounds Green Underground Station"]
+    Westbound_Out: ["Russell Square Underground Station", "Holborn Underground Station"]
+
+  PIC-ARN-COC:
+   step_min: 5
+   preroll_min: 10
+   m_step_min: 20
+   m_preroll_min: 20
+   points:
+    Eastbound_In:  ["Arnos Grove Underground Station", "Southgate Underground Station"]
+    Eastbound_Out: ["Oakwood Underground Station", "Cockfosters Underground Station"]
+    Westbound_In:  ["Cockfosters Underground Station", "Oakwood Underground Station"]
+    Westbound_Out: ["Southgate Underground Station", "Arnos Grove Underground Station"]
+ 

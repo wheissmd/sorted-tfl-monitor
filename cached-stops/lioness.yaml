@@ -1,0 +1,62 @@
+api_line_id: lioness
+created: '2025-11-06T21:30:08.236765+00:00'
+mode: overground
+name_to_ids:
+  Bushey Rail Station:
+  - 910GBUSHEY
+  Euston Rail Station:
+  - 910GEUSTON
+  - 490G00012867
+  - 490G000652
+  - 490G000651
+  - 940GZZLUEUS
+  Harlesden Rail Station:
+  - 940GZZLUHSN
+  - 910GHARLSDN
+  Harrow & Wealdstone Rail Station:
+  - 910GHROW
+  - 940GZZLUHAW
+  Headstone Lane Rail Station:
+  - 4900HEDSTNL2
+  - 9100HEDSTNL
+  - 4900HEDSTNL1
+  - 910GHEDSTNL
+  - 9100HEDSTNL0
+  - 9100HEDSTNL1
+  Kensal Green Rail Station:
+  - 940GZZLUKSL
+  - 910GKENSLG
+  Kenton Rail Station:
+  - 940GZZLUKEN
+  - 910GKTON
+  Kilburn High Road Rail Station:
+  - 9100KLBRNHR2
+  - 4900KLBRNHR1
+  - 910GKLBRNHR
+  - 9100KLBRNHR
+  - 9100KLBRNHR1
+  Queen's Park Rail Station:
+  - HUBQPW
+  - 910GQPRK
+  - 940GZZLUQPS
+  - 490G000429
+  South Hampstead Rail Station:
+  - 9100SHMPSTD
+  - 4900SHMPSTD1
+  - 910GSHMPSTD
+  - 9100SHMPSTD1
+  - 9100SHMPSTD0
+  Stonebridge Park Rail Station:
+  - 940GZZLUSGP
+  - 910GSTNBGPK
+  Watford High Street Rail Station:
+  - 9100WATFDHS
+  - 2100WATFDHS0
+  - 9100WATFDHS2
+  - 910GWATFDHS
+  - 9100WATFDHS1
+  Watford Junction Rail Station:
+  - 910GWATFDJ
+  Wembley Central Rail Station:
+  - 910GWMBY
+  - 940GZZLUWYC

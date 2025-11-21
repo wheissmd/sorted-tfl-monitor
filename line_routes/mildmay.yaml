@@ -1,0 +1,49 @@
+line:
+  id: mildmay
+  name: Mildmay
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Stratford Rail Station": 3
+  "Richmond Rail Station": 3
+  "Clapham Junction Rail Station": 4
+
+launch_dir_default:
+  "Stratford Rail Station": "Down"
+  "Richmond Rail Station": "Up"
+  "Clapham Junction Rail Station": "Up"
+
+stations_branch1:
+  "Richmond": 1
+  "Kew Gardens": 2
+  "Gunnersbury": 3
+  "South Acton": 4
+  "Acton Central": 5
+  
+stations_branch2:
+  "Clapham Junction": 1
+  "Imperial Wharf": 2
+  "West Brompton": 3
+  "Kensington (Olympia)": 4
+  "Shepherd's Bush": 5
+  
+stations_branch3:
+  "Willesden Junction": 6
+  "Kensal Rise": 7
+  "Brondesbury Park": 8
+  "Brondesbury": 9
+  "West Hampstead": 10
+  "Finchley Road & Frognal": 11
+  "Hampstead Heath": 12
+  "Gospel Oak": 13
+  "Kentish Town West": 14
+  "Camden Road": 15
+  "Caledonian Road & Barnsbury": 16
+  "Highbury & Islington": 17
+  "Canonbury": 18
+  "Dalston Kingsland": 19
+  "Hackney Central": 20
+  "Homerton": 21
+  "Hackney Wick": 22
+  "Stratford": 23

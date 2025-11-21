@@ -1,0 +1,88 @@
+api_line_id: bakerloo
+created: '2025-11-06T21:18:27.646404+00:00'
+mode: tube
+name_to_ids:
+  Baker Street Underground Station:
+  - 9400ZZLUBST7
+  - 4900ZZLUBST3
+  - 9400ZZLUBST5
+  - 4900ZZLUBST2
+  - 4900ZZLUBST1
+  - 9400ZZLUBST4
+  - 9400ZZLUBST2
+  - 9400ZZLUBST6
+  - 940GZZLUBST
+  - 9400ZZLUBST8
+  - 9400ZZLUBST
+  - 9400ZZLUBST1
+  - 4900ZZLUBST4
+  - 9400ZZLUBST3
+  Elephant & Castle Underground Station:
+  - 490G000645
+  - 910GELPHNAC
+  - 940GZZLUEAC
+  Harlesden Underground Station:
+  - 940GZZLUHSN
+  - 910GHARLSDN
+  Harrow & Wealdstone Underground Station:
+  - 940GZZLUHAW
+  - 910GHROW
+  Kensal Green Underground Station:
+  - 940GZZLUKSL
+  - 910GKENSLG
+  Kenton Underground Station:
+  - 940GZZLUKEN
+  - 910GKTON
+  Kilburn Park Underground Station:
+  - 4900ZZLUKPK1
+  - 9400ZZLUKPK1
+  - 9400ZZLUKPK
+  - 9400ZZLUKPK2
+  - 940GZZLUKPK
+  Lambeth North Underground Station:
+  - 940GZZLULBN
+  - 4900ZZLULBN1
+  - 9400ZZLULBN1
+  - 9400ZZLULBN
+  - 9400ZZLULBN2
+  Maida Vale Underground Station:
+  - 940GZZLUMVL
+  - 4900ZZLUMVL1
+  - 9400ZZLUMVL
+  - 9400ZZLUMVL1
+  - 4900ZZLUMVL2
+  - 9400ZZLUMVL2
+  Marylebone Underground Station:
+  - 940GZZLUMYB
+  - 910GMARYLBN
+  Queen's Park Underground Station:
+  - 940GZZLUQPS
+  - 910GQPRK
+  - 490G000429
+  Regent's Park Underground Station:
+  - 940GZZLURGP
+  - 9400ZZLURGP
+  - 9400ZZLURGP2
+  - 9400ZZLURGP1
+  - 4900ZZLURGP1
+  South Kenton Underground Station:
+  - 940GZZLUSKT
+  - 910GSKENTON
+  Stonebridge Park Underground Station:
+  - 940GZZLUSGP
+  - 910GSTNBGPK
+  Waterloo Underground Station:
+  - 910GWATRLMN
+  - 490G000404
+  - 490G000402
+  - 490G000736
+  - 940GZZLUWLO
+  - 490G000275
+  - 490G000405
+  - 490G000401
+  Wembley Central Underground Station:
+  - 940GZZLUWYC
+  - 910GWMBY
+  Willesden Junction Underground Station:
+  - 940GZZLUWJN
+  - 910GWLSDJHL

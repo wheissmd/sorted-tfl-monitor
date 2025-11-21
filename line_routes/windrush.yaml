@@ -1,0 +1,61 @@
+line:
+  id: windrush
+  name: Windrush
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Highbury & Islington Rail Station": 5
+  "Dalston Junction Rail Station": 2
+  "New Cross Rail Station": 4
+  "Crystal Palace Rail Station": 4
+  "Clapham Junction Rail Station": 6
+  "West Croydon Rail Station": 6
+
+launch_dir_default:
+  "Highbury & Islington Rail Station": "Up"
+  "Dalston Junction Rail Station": "Up"
+  "New Cross Rail Station": "Down"
+  "Clapham Junction Rail Station": "Down"
+  "West Croydon Rail Station": "Down"
+
+stations_branch1:
+  "Highbury & Islington": 1
+  "Canonbury": 2
+  "Dalston Junction": 3
+  "Haggerston": 4
+  "Hoxton": 5
+  "Shoreditch High Street": 6
+  "Whitechapel": 7
+  "Shadwell": 8
+  "Wapping": 9
+  "Rotherhithe": 10
+  "Canada Water": 11
+  "Surrey Quays": 12
+  
+stations_branch2:
+  "New Cross": 13
+  
+stations_branch3:
+  "Queens Road Peckham": 13
+  "Peckham Rye": 14
+  "Denmark Hill": 15
+  "Clapham High Street": 16
+  "Wandsworth Road": 17
+  "Clapham Junction": 18
+  
+stations_branch4:
+  "New Cross Gate": 13
+  "Brockley": 14
+  "Honor Oak Park": 15
+  "Forest Hill": 16
+  "Sydenham": 17
+  
+stations_branch5:
+  "Crystal Palace": 18
+  
+stations_branch6:
+  "Penge West": 18
+  "Anerley": 19
+  "Norwood Junction": 20
+  "West Croydon": 21

@@ -1,0 +1,21 @@
+version: 1
+
+line:
+  id: waterloo
+  name: Waterloo & City
+  mode: tube
+  line_token: waterloo
+
+parameters:
+  step_min: 5
+  preroll_min: 10
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 0
+  
+sections:
+  WAT-WAT-BAN:
+   points:
+    Northbound:  ["Waterloo Underground Station", "Bank Underground Station"]
+    Southbound:  ["Bank Underground Station", "Waterloo Underground Station"]

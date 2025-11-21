@@ -1,0 +1,51 @@
+line:
+  id: jubilee
+  name: Jubilee
+  mode: tube
+
+min_run_ab_default_min:
+  "Stanmore Underground Station": 2
+  "Wembley Park Underground Station": 3
+  "Willesden Green Underground Station": 4
+  "West Hampstead Underground Station": 2
+  "North Greenwich Underground Station": 2
+  "West Ham Underground Station": 4
+  "Stratford Underground Station": 2
+
+launch_dir_default:
+  "Stanmore Underground Station": "Up"
+  "Wembley Park Underground Station": "Up"
+  "Willesden Green Underground Station": "Up"
+  "West Hampstead Underground Station": "Up"
+  "North Greenwich Underground Station": "Down"
+  "West Ham Underground Station": "Down"
+  "Stratford Underground Station": "Down"
+
+stations:
+  Stanmore: 1
+  Canons Park: 2
+  Queensbury: 3
+  Kingsbury: 4
+  Wembley Park: 5
+  Neasden: 6
+  Dollis Hill: 7
+  Willesden Green: 8
+  Kilburn: 9
+  West Hampstead: 10
+  Finchley Road: 11
+  Swiss Cottage: 12
+  St John's Wood: 13
+  Baker Street: 14
+  Bond Street: 15
+  Green Park: 16
+  Westminster: 17
+  Waterloo: 18
+  Southwark: 19
+  London Bridge: 20
+  Bermondsey: 21
+  Canada Water: 22
+  Canary Wharf: 23
+  North Greenwich: 24
+  Canning Town: 25
+  West Ham: 26
+  Stratford: 27

@@ -1,0 +1,34 @@
+line:
+  id: lioness
+  name: Lioness
+  mode: overground
+  line_token: overground
+
+min_run_ab_default_min:
+  "Watford Junction Rail Station": 3
+  "Euston Rail Station": 5
+
+launch_dir_default:
+  "Watford Junction Rail Station": "Up"
+  "Euston Rail Station": "Down"
+
+stations:
+  "Watford Junction": 1
+  "Watford High Street": 2
+  "Bushey": 3
+  "Carpenders Park": 4
+  "Hatch End": 5
+  "Headstone Lane": 6
+  "Harrow & Wealdstone": 7
+  "Kenton": 8
+  "South Kenton": 9
+  "North Wembley": 10
+  "Wembley Central": 11
+  "Stonebridge Park": 12
+  "Harlesden": 13
+  "Willesden Junction": 14
+  "Kensal Green": 15
+  "Queen's Park": 16
+  "Kilburn High Road": 17
+  "South Hampstead": 18
+  "Euston": 19

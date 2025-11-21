@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Lioness" mode="overground" tz="Europe/London" window="13:00-14:00">
+   <Section>
+      LIO-WAT-HAR
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIO-HAR-STO
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIO-STO-QUE
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+   <Section>
+      LIO-QUE-EUS
+      <Point>
+         Southbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Southtbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_In
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Northbound_Out
+         <Time>13:00-14:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

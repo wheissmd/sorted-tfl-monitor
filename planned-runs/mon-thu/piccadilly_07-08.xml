@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Piccadilly" mode="tube" tz="Europe/London" window="07:00-08:00">
+   <Section>
+      PIC-HT5-HAT
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>5</TPH>
+         <Headways>10 11 11 11 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 12 10 8 10 12</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-HT4-HAT
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>6</TPH>
+         <Headways>10 10 11 10 11 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>6</TPH>
+         <Headways>12 11 9 9 11 12</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-HAT-NOR
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>12</TPH>
+         <Headways>5 5 5 5 5 5 6 5 6 5 5 5</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>11</TPH>
+         <Headways>5 5 5 5 5 5 5 5 6 5 6</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>11</TPH>
+         <Headways>5 4 4 5 6 6 6 6 6 6 6</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>11</TPH>
+         <Headways>6 5 5 4 4 5 6 6 6 6 6</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-NOR-ACT
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>17</TPH>
+         <Headways>5 2 3 5 3 3 4 5 2 4 4 4 4 4 3 2 4</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>15</TPH>
+         <Headways>4 4 4 2 4 6 3 3 6 3 4 6 3 3 6</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-UXB-RAY
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>3</TPH>
+         <Headways>15 17 25</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>3</TPH>
+         <Headways>11 15 18</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>4</TPH>
+         <Headways>16 26 11 13</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>3</TPH>
+         <Headways>16 26 11</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-RAY-NEA
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>6</TPH>
+         <Headways>11 4 11 5 12 12</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>7</TPH>
+         <Headways>10 7 8 8 7 8 10</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>5</TPH>
+         <Headways>12 12 12 12 13</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>5</TPH>
+         <Headways>14 12 10 4 10</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-NEA-EAC
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>8</TPH>
+         <Headways>10 10 7 8 8 7 8 10</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>5</TPH>
+         <Headways>12 12 12 12 13</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-EAC-ACT
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>7</TPH>
+         <Headways>10 10 8 7 8 7 8</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>5</TPH>
+         <Headways>13 11 12 13 13</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-ACT-BAC
+      <Point>
+         Eastbound
+         <Time>07:00-08:00</Time>
+         <TPH>24</TPH>
+         <Headways>2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>07:00-08:00</Time>
+         <TPH>19</TPH>
+         <Headways>3 3 3 3 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-BAC-HOL
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>24</TPH>
+         <Headways>2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>23</TPH>
+         <Headways>3 3 2 3 2 3 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>19</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 3</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>19</TPH>
+         <Headways>3 3 3 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-HOL-ARN
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>24</TPH>
+         <Headways>3 3 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>20</TPH>
+         <Headways>5 5 4 4 3 3 3 3 2 3 3 2 3 2 3 2 3 2 3 2</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>21</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 3 3 2 3 2 2</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>20</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 4 3 3 3 3 3 3 3 3 3 3</Headways>
+      </Point>
+   </Section>
+   <Section>
+      PIC-ARN-COC
+      <Point>
+         Eastbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>16</TPH>
+         <Headways>5 5 5 5 4 6 2 3 5 3 3 2 3 5 2 3</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>15</TPH>
+         <Headways>12 5 5 5 5 4 6 3 3 5 2 3 3 3 4</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>07:00-08:00</Time>
+         <TPH>16</TPH>
+         <Headways>6 3 3 3 6 3 6 3 3 5 5 3 4 3 3 3</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>07:00-08:00</Time>
+         <TPH>19</TPH>
+         <Headways>3 3 3 3 3 3 3 3 3 6 3 3 5 2 3 3 4 3 2</Headways>
+      </Point>
+   </Section>
+</PlannedReference>

@@ -1,0 +1,23 @@
+api_line_id: liberty
+created: '2025-11-07T15:32:57.950040+00:00'
+mode: overground
+name_to_ids:
+  Emerson Park Rail Station:
+  - 910GEMRSPKH
+  - 4900EMRSPKH1
+  - 9100EMRSPKH
+  - 9100EMRSPKH0
+  Romford Rail Station:
+  - 9100ROMFORD2
+  - 4900ROMFORD2
+  - 4900ROMFORD1
+  - 9100ROMFORD0
+  - 9100ROMFORD1
+  - 910GROMFORD
+  - 9100ROMFORD
+  - 9100ROMFORD3
+  Upminster Rail Station:
+  - 490G000935
+  - 910GUPMNSTR
+  - 940GZZLUUPM
+  - 490G000936

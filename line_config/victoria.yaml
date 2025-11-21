@@ -1,0 +1,38 @@
+version: 1
+
+line:
+  id: victoria
+  name: Victoria
+  mode: tube
+  line_token: victoria
+
+parameters:
+  step_min: 3
+  preroll_min: 11
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 1
+  
+sections:
+  VIC_WAL-SEV:
+   step_min: 3
+   preroll_min: 6
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["Walthamstow Central Underground Station", "Blackhorse Road Underground Station"]
+    Southbound_Out: ["Tottenham Hale Underground Station", "Seven Sisters Underground Station"]
+    Northbound_In:  ["Seven Sisters Underground Station", "Tottenham Hale Underground Station"]
+    Northbound_Out: ["Blackhorse Road Underground Station", "Walthamstow Central Underground Station"]
+
+  VIC-SEV-BRI:
+   step_min: 3
+   preroll_min: 6
+   n_step_min: 15
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["Seven Sisters Underground Station", "Finsbury Park Underground Station"]
+    Southbound_Out: ["Stockwell Underground Station", "Brixton Underground Station"]
+    Northbound_In:  ["Brixton Underground Station", "Stockwell Underground Station"]
+    Northbound_Out: ["Finsbury Park Underground Station", "Seven Sisters Underground Station"]

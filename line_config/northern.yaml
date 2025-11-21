@@ -1,0 +1,118 @@
+version: 1
+
+line:
+  id: northern
+  name: Northern
+  mode: tube
+  line_token: northern
+
+parameters:
+  step_min: 5
+  preroll_min: 20
+  throttle_sec: 0.15
+  http_timeout: 12
+  jp_mode: tube
+  night_tube: 1
+  
+sections:
+  NOR-HIB-FIN:
+   step_min: 5
+   preroll_min: 12
+   n_step_min: 9
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["High Barnet Underground Station", "Totteridge & Whetstone Underground Station"]
+    Southbound_Out: ["West Finchley Underground Station", "Finchley Central Underground Station"]
+    Northbound_In:  ["Finchley Central Underground Station", "West Finchley Underground Station"]
+    Northbound_Out: ["Totteridge & Whetstone Underground Station", "High Barnet Underground Station"]
+
+  NOR-MIL-FIN:
+   step_min: 20
+   preroll_min: 20
+   points:
+    Southbound:  ["Mill Hill East Underground Station", "Finchley Central Underground Station"]
+    Northbound:  ["Finchley Central Underground Station", "Mill Hill East Underground Station"]
+
+  NOR-FIN-CAM:
+   step_min: 5
+   preroll_min: 12
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Finchley Central Underground Station", "East Finchley Underground Station"]
+    Southbound_Out: ["Kentish Town Underground Station", "Camden Town Underground Station"]
+    Northbound_In:  ["Camden Town Underground Station", "Kentish Town Underground Station"]
+    Northbound_Out: ["East Finchley Underground Station", "Finchley Central Underground Station"]
+
+  NOR-EDG-CAM:
+   step_min: 5
+   preroll_min: 12
+   n_step_min: 5
+   n_preroll_min: 15
+   points:
+    Southbound_In:  ["Edgware Underground Station", "Burnt Oak Underground Station"]
+    Southbound_Out: ["Chalk Farm Underground Station", "Camden Town Underground Station"]
+    Northbound_In:  ["Camden Town Underground Station", "Chalk Farm Underground Station"]
+    Northbound_Out: ["Burnt Oak Underground Station", "Edgware Underground Station"]
+
+  NOR-CAM-MOO:
+   step_min: 4
+   preroll_min: 5
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Camden Town Underground Station", "King's Cross St Pancras Underground Station"]
+    Southbound_Out: ["Old Street Underground Station", "Moorgate Underground Station"]
+    Northbound_In:  ["Moorgate Underground Station", "Old Street Underground Station"]
+    Northbound_Out: ["King's Cross St Pancras Underground Station", "Camden Town Underground Station"]
+
+  NOR-CAM-TOT:
+   step_min: 4
+   preroll_min: 5
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Camden Town Underground Station", "Mornington Crescent Underground Station"]
+    Southbound_Out: ["Goodge Street Underground Station", "Tottenham Court Road Underground Station"]
+    Northbound_In:  ["Tottenham Court Road Underground Station", "Goodge Street Underground Station"]
+    Northbound_Out: ["Mornington Crescent Underground Station", "Camden Town Underground Station"]
+   
+  NOR-MOO-KEN:
+   step_min: 4
+   preroll_min: 5
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Moorgate Underground Station", "Bank Underground Station"]
+    Southbound_Out: ["Elephant & Castle Underground Station", "Kennington Underground Station"]
+    Northbound_In:  ["Kennington Underground Station", "Elephant & Castle Underground Station"]
+    Northbound_Out: ["Bank Underground Station", "Moorgate Underground Station"]
+
+  NOR-TOT-KEN:
+   step_min: 4
+   preroll_min: 5
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Tottenham Court Road Underground Station", "Leicester Square Underground Station"]
+    Southbound_Out: ["Waterloo Underground Station", "Kennington Underground Station"]
+    Northbound_In:  ["Kennington Underground Station", "Waterloo Underground Station"]
+    Northbound_Out: ["Leicester Square Underground Station", "Tottenham Court Road Underground Station"]
+
+  NOR-KEN-MOR:
+   step_min: 5
+   preroll_min: 12
+   n_step_min: 5
+   n_preroll_min: 12
+   points:
+    Southbound_In:  ["Kennington Underground Station", "Oval Underground Station"]
+    Southbound_Out: ["South Wimbledon Underground Station", "Morden Underground Station"]
+    Northbound_In:  ["Morden Underground Station", "South Wimbledon Underground Station"]
+    Northbound_Out: ["Oval Underground Station", "Kennington Underground Station"]
+
+  NOR-KEN-BAT:
+   step_min: 7
+   preroll_min: 15
+   points:
+    Southbound:  ["Kennington Underground Station", "Battersea Power Station Underground Station"]
+    Northbound:  ["Battersea Power Station Underground Station", "Kennington Underground Station"]

@@ -1,0 +1,111 @@
+api_line_id: windrush
+created: '2025-11-06T21:42:24.881829+00:00'
+mode: overground
+name_to_ids:
+  Anerley Rail Station:
+  - 4900ANERLEY1
+  - 910GANERLEY
+  - 9100ANERLEY
+  - 9100ANERLEY1
+  - 9100ANERLEY0
+  - 4900ANERLEY2
+  Canada Water Rail Station:
+  - 490G000438
+  - 910GCNDAW
+  - 940GZZLUCWR
+  Canonbury Rail Station:
+  - 9100CNNB1
+  - 910GCNNB
+  - 9100CNNB3
+  - 490007537E
+  - 490007537W
+  - 9100CNNB2
+  - 9100CNNB
+  - 4900CNNB1
+  - 9100CNNB4
+  Clapham High Street Rail Station:
+  - 910GCLPHHS
+  - 4900CLPHHS1
+  - 9100CLPHHS1
+  - 9100CLPHHS0
+  - 9100CLPHHS
+  Clapham Junction Rail Station:
+  - 490G00005333
+  - 910GCLPHMJC
+  - 490G000462
+  - 490G000855
+  Crystal Palace Rail Station:
+  - 910GCRYSTLP
+  Dalston Junction Rail Station:
+  - 4900DALS2
+  - 9100DALS
+  - 490001568N
+  - 9100DALS0
+  - 910GDALS
+  - 490006929C
+  - 4900DALS1
+  Forest Hill Rail Station:
+  - 4900FORESTH4
+  - 9100FORESTH
+  - 4900FORESTH1
+  - 910GFORESTH
+  - 9100FORESTH0
+  - 4900FORESTH3
+  - 9100FORESTH1
+  - 4900FORESTH2
+  Haggerston Rail Station:
+  - 9100HAGGERS0
+  - 9100HAGGERS1
+  - 9100HAGGERS
+  - 910GHAGGERS
+  - 4900HAGGERS1
+  Highbury & Islington Rail Station:
+  - 910GHGHI
+  - 940GZZLUHAI
+  Hoxton Rail Station:
+  - 9100HOXTON
+  - 9100HOXTON1
+  - 4900HOXTON2
+  - 4900HOXTON1
+  - 910GHOXTON
+  - 9100HOXTON0
+  New Cross Gate Rail Station:
+  - 910GNEWXGEL
+  - 910GNEWXGTE
+  New Cross Rail Station:
+  - HUBNWX
+  - 910GNWCRELL
+  - 910GNWCROSS
+  Norwood Junction Rail Station:
+  - 910GNORWDJ
+  Penge West Rail Station:
+  - 9100PENEW0
+  - 910GPENEW
+  - 4900PENEW1
+  - 9100PENEW
+  - 9100PENEW1
+  Queens Road Peckham Rail Station:
+  - 4900PCKHMQD1
+  - 9100PCKHMQD0
+  - 910GPCKHMQD
+  - 9100PCKHMQD
+  Surrey Quays Rail Station:
+  - 910GSURREYQ
+  - 9100SURREYQ2
+  - 9100SURREYQ
+  - 4900SURREYQ2
+  - 4900SURREYQ1
+  - 9100SURREYQ1
+  Sydenham Rail Station:
+  - 910GSYDENHM
+  - 490G000630
+  Wandsworth Road Rail Station:
+  - 910GWNDSWRD
+  - 4900WNDSWRD1
+  - 9100WNDSWRD
+  - 9100WNDSWRD2
+  - 9100WNDSWRD1
+  West Croydon Rail Station:
+  - 940GZZCRWCR
+  - 910GWCROYDN
+  - 490G000824

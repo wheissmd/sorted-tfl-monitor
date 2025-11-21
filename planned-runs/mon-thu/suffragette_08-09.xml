@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlannedReference date="2025-10-06" line="Suffragette" mode="overground" tz="Europe/London" window="08:00-09:00">
+   <Section>
+      SUF-GOS-WAN
+      <Point>
+         Eastbound_In
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 16</Headways>
+      </Point>
+      <Point>
+         Eastbound_Out
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Westbound_In
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 16 17</Headways>
+      </Point>
+      <Point>
+         Westbound_Out
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 16</Headways>
+      </Point>
+   </Section>
+   <Section>
+      SUF-WAN-BAR
+      <Point>
+         Eastbound
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 16 17 12</Headways>
+      </Point>
+   </Section>
+   <Section>
+      SUF-BAR-BRR
+      <Point>
+         Eastbound
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 15 15 15</Headways>
+      </Point>
+      <Point>
+         Westbound
+         <Time>08:00-09:00</Time>
+         <TPH>4</TPH>
+         <Headways>15 16 17 12</Headways>
+      </Point>
+   </Section>
+</PlannedReference>
