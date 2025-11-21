@@ -145,7 +145,7 @@ The results will be written to:
 
 </ul>
 
-*\* - Timetable isn't fetched from Darwin or TfL timetable, because no detailed enough data is publicly available. Instead, the algorithm relies on JouneyPlanner and iterates through departures with a certain step. This is very slow, timetable generation for all lines combined take a few days. However, just generation the Monday-Friday snippet should be fine.*
+*\* - Timetable isn't fetched from Darwin or TfL timetable, because no detailed enough data is publicly available. Instead, the algorithm relies on JouneyPlanner and iterates through departures with a certain step. This is very slow, timetable generation for all lines combined take a few days. However, just generation the Monday-Thursday snippet should be fine.*
 
 *\*\* - Timetable is fetched from Darwin API. It works way better than JourneyPlanner approach, but still problematic. I wouldn't recommend generating timetable on weekends, because a lot of temporary planned change runs coexist with normal runs, so the timetable that ends up fetching reports ghost trains. It's better to generate real runs for these trains from Monday daytime to Friday evening.*
 
